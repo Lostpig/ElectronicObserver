@@ -49,6 +49,9 @@ public partial class ConfigurationConnectionViewModel : ConfigurationViewModelBa
 
 	public string DownstreamProxy { get; set; }
 
+	public bool UseLocalCache { get; set; }
+	public string LocalCachePath { get; set; }
+
 	public ConfigurationConnectionViewModel(Configuration.ConfigurationData.ConfigConnection configConnection)
 	{
 		Translation = Ioc.Default.GetRequiredService<ConfigurationConnectionTranslationViewModel>();
@@ -73,6 +76,9 @@ public partial class ConfigurationConnectionViewModel : ConfigurationViewModelBa
 		UpstreamProxyAddress = configConnection.UpstreamProxyAddress;
 		UseSystemProxy = configConnection.UseSystemProxy;
 		DownstreamProxy = configConnection.DownstreamProxy;
+
+		UseLocalCache = configConnection.LocalCache;
+		LocalCachePath = configConnection.LocalCachePath;
 	}
 
 	public override void Save()
@@ -90,6 +96,9 @@ public partial class ConfigurationConnectionViewModel : ConfigurationViewModelBa
 		ConfigConnection.UpstreamProxyAddress = UpstreamProxyAddress;
 		ConfigConnection.UseSystemProxy = UseSystemProxy;
 		ConfigConnection.DownstreamProxy = DownstreamProxy;
+
+		ConfigConnection.LocalCache = UseLocalCache;
+		ConfigConnection.LocalCachePath = LocalCachePath;
 
 		if (ConfigConnection.SaveReceivedData)
 		{
@@ -120,6 +129,17 @@ public partial class ConfigurationConnectionViewModel : ConfigurationViewModelBa
 
 		SaveDataPath = newSaveDataPath;
 	}
+
+	[RelayCommand]
+	private void SelectLocalCachePath()
+	{
+		string? newLocalCachePath = FileService.SelectFolder(LocalCachePath);
+
+		if (newLocalCachePath is null) return;
+
+		LocalCachePath = newLocalCachePath;
+	}
+
 
 	[RelayCommand]
 	private void ExportConnectionScript()

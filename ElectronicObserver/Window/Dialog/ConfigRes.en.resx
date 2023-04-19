@@ -643,4 +643,7 @@ If this feature is enabled, localisation may not function correctly.</value>
   <data name="ShipTraining" xml:space="preserve">
     <value>Ship Training</value>
   </data>
+  <data name="EnableLocalCache" xml:space="preserve">
+    <value>Enable local cache</value>
+  </data>
 </root>

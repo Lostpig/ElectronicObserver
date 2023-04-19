@@ -19,6 +19,7 @@
 			<RowDefinition Height="Auto" />
 			<RowDefinition Height="Auto" />
 			<RowDefinition Height="Auto" />
+			<RowDefinition Height="Auto" />
 			<RowDefinition />
 		</Grid.RowDefinitions>
 
@@ -155,7 +156,35 @@
 			Content="{Binding Translation.OutputProxyScript}"
 			/>
 
-		<Grid Grid.Row="6">
+		<Grid Grid.Row="6" IsSharedSizeScope="True">
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition Width="Auto" />
+				<ColumnDefinition />
+				<ColumnDefinition Width="Auto" />
+			</Grid.ColumnDefinitions>
+
+			<CheckBox
+				Grid.Column="0"
+				Content="{Binding Translation.EnableLocalCache}"
+				IsChecked="{Binding UseLocalCache}"
+				/>
+
+			<TextBox
+				IsEnabled="{Binding UseLocalCache}"
+				Grid.Column="1"
+				VerticalAlignment="Center"
+				Text="{Binding LocalCachePath, UpdateSourceTrigger=PropertyChanged}"
+				/>
+			<Button
+				IsEnabled="{Binding UseLocalCache}"
+				Grid.Column="2"
+				Margin="4 0"
+				Command="{Binding SelectLocalCachePathCommand}"
+				Content="..."
+				/>
+		</Grid>
+
+		<Grid Grid.Row="7">
 			<TextBlock Foreground="Red" Text="{Binding Translation.NetworkSettingsNote}" />
 		</Grid>
 	</Grid>

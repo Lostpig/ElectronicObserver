@@ -806,6 +806,8 @@ public sealed class APIObserver
 	private async Task ProxyOnBeforeRequest(object sender, SessionEventArgs e)
 	{
 		e.HttpClient.Request.KeepBody = true;
+
+		await LocalCache.Instance.UseLocalCahce(e);
 		// need to read the request body here so it's available in ProxyOnBeforeResponse
 		await e.GetRequestBodyAsString();
 	}

@@ -35,4 +35,6 @@ public class ConfigurationConnectionTranslationViewModel : TranslationBaseViewMo
 	public string Connection_RegisterAsSystemProxy => Properties.Window.Dialog.DialogConfiguration.Connection_RegisterAsSystemProxy;
 	public string RegSystemProxyHint => ConfigRes.RegSystemProxyHint;
 	public string Connection_SaveDataPathSearch => Properties.Window.Dialog.DialogConfiguration.Connection_SaveDataPathSearch;
+
+	public string EnableLocalCache => ConfigRes.EnableLocalCache;
 }

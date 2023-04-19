@@ -118,6 +118,15 @@ public sealed class Configuration
 			/// </summary>
 			public string DownstreamProxy { get; set; }
 
+			/// <summary>
+			/// 启用本地缓存
+			/// </summary>
+			public bool LocalCache { get; set; }
+			/// <summary>
+			/// 本地缓存路径
+			/// </summary>
+			public string LocalCachePath { get; set; }
+
 			public ConfigConnection()
 			{
 
@@ -134,6 +143,8 @@ public sealed class Configuration
 				UpstreamProxyAddress = "127.0.0.1";
 				UseSystemProxy = false;
 				DownstreamProxy = "";
+				LocalCache = false;
+				LocalCachePath = @"cache";
 			}
 
 		}
