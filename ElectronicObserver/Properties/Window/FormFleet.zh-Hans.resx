@@ -264,4 +264,10 @@
 	<data name="ContextMenuFleetShipLevel_RemoveTrainingPlan" xml:space="preserve">
     <value>移除舰娘训练计划</value>
   </data>
+  <data name="SpecialAttacksDay" xml:space="preserve">
+    <value>特殊炮击(昼战)：</value>
+  </data>
+  <data name="SpecialAttacksNight" xml:space="preserve">
+    <value>特殊炮击(夜战)：</value>
+  </data>
 </root>
