@@ -34,6 +34,7 @@ public class ConfigurationUITranslationViewModel : TranslationBaseViewModel
 	public string UI_LanguageLabel => Properties.Window.Dialog.DialogConfiguration.UI_LanguageLabel;
 	public string Language_English => Properties.Window.Dialog.DialogConfiguration.Language_English;
 	public string Language_Japanese => Properties.Window.Dialog.DialogConfiguration.Language_Japanese;
+	public string Language_SimplifiedChinese => Properties.Window.Dialog.DialogConfiguration.Language_SimplifiedChinese;
 
 	public string UI_RestartHint => Properties.Window.Dialog.DialogConfiguration.UI_RestartHint;
 }

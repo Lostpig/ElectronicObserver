@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-  <!-- 
+	<!-- 
 		Microsoft ResX Schema
 
 		Version 1.3
@@ -58,98 +58,98 @@
 			: using a System.ComponentModel.TypeConverter
 			: and then encoded with base64 encoding.
 	-->
-  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
-    <xsd:element name="root" msdata:IsDataSet="true">
-      <xsd:complexType>
-        <xsd:choice maxOccurs="unbounded">
-          <xsd:element name="data">
-            <xsd:complexType>
-              <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
-              </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
-              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
-              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
-            </xsd:complexType>
-          </xsd:element>
-          <xsd:element name="resheader">
-            <xsd:complexType>
-              <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-              </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" />
-            </xsd:complexType>
-          </xsd:element>
-        </xsd:choice>
-      </xsd:complexType>
-    </xsd:element>
-  </xsd:schema>
-  <resheader name="resmimetype">
-    <value>text/microsoft-resx</value>
-  </resheader>
-  <resheader name="version">
-    <value>1.3</value>
-  </resheader>
-  <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </resheader>
-  <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </resheader>
-  <data name="APIView_FileName" xml:space="preserve">
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+							<xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+							<xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>1.3</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="APIView_FileName" xml:space="preserve">
     <value>ファイル名</value>
   </data>
-  <data name="ViewMenu_Execute" xml:space="preserve">
+	<data name="ViewMenu_Execute" xml:space="preserve">
     <value>実行(&amp;E)</value>
   </data>
-  <data name="ViewMenu_Delete" xml:space="preserve">
+	<data name="ViewMenu_Delete" xml:space="preserve">
     <value>削除(&amp;D)</value>
   </data>
-  <data name="Menu_File" xml:space="preserve">
+	<data name="Menu_File" xml:space="preserve">
     <value>ファイル(&amp;F)</value>
   </data>
-  <data name="Menu_File_OpenFolder" xml:space="preserve">
+	<data name="Menu_File_OpenFolder" xml:space="preserve">
     <value>フォルダを開く(&amp;O)...</value>
   </data>
-  <data name="Menu_File_Reload" xml:space="preserve">
+	<data name="Menu_File_Reload" xml:space="preserve">
     <value>再読み込み(&amp;R)</value>
   </data>
-  <data name="ButtonSearchPrev" xml:space="preserve">
+	<data name="ButtonSearchPrev" xml:space="preserve">
     <value>前に検索</value>
   </data>
-  <data name="ButtonSearch" xml:space="preserve">
+	<data name="ButtonSearch" xml:space="preserve">
     <value>検索</value>
   </data>
-  <data name="ButtonExecuteNext" xml:space="preserve">
+	<data name="ButtonExecuteNext" xml:space="preserve">
     <value>次へ実行</value>
   </data>
-  <data name="ButtonExecute" xml:space="preserve">
+	<data name="ButtonExecute" xml:space="preserve">
     <value>実行</value>
   </data>
-  <data name="Title" xml:space="preserve">
+	<data name="Title" xml:space="preserve">
     <value>ファイルからAPIをロード</value>
   </data>
-  <data name="FolderNotSpecifiedOrDoesNotExist" xml:space="preserve">
+	<data name="FolderNotSpecifiedOrDoesNotExist" xml:space="preserve">
     <value>フォルダが指定されていないか存在しません。</value>
   </data>
-  <data name="Error" xml:space="preserve">
+	<data name="Error" xml:space="preserve">
     <value>エラー</value>
   </data>
-  <data name="OperationAlreadyInProgress" xml:space="preserve">
+	<data name="OperationAlreadyInProgress" xml:space="preserve">
     <value>既に実行中です。
 中断しますか?</value>
   </data>
-  <data name="Confirmation" xml:space="preserve">
+	<data name="Confirmation" xml:space="preserve">
     <value>確認</value>
   </data>
-  <data name="SelectSingleRow" xml:space="preserve">
+	<data name="SelectSingleRow" xml:space="preserve">
     <value>単一行を選択してください。</value>
   </data>
-  <data name="Information" xml:space="preserve">
+	<data name="Information" xml:space="preserve">
     <value>情報</value>
   </data>
-  <data name="FailedToStart" xml:space="preserve">
+	<data name="FailedToStart" xml:space="preserve">
     <value>API ファイルの起動に失敗しました。 {0}: {1}</value>
   </data>
 </root>

@@ -5,6 +5,10 @@
 
 Electronic Observer is a browser to help admirals manage their fleets. It is packed with features to provide additional informations for admirals to plan and play KanColle better.
 
+## Fork
+自用版本，不定期跟随主版本更新  
+添加了本地缓存和魔改支持  
+
 ## Main Features
 Each function is located in separate windows, and can be freely docked, moved, and arranged by the user.  
 Below is a brief explanation. **For more details, please see the [Wiki.](https://github.com/RyuuKitsune/ElectronicObserver/wiki)**  

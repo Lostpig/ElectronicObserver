@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-  <!-- 
+	<!-- 
 		Microsoft ResX Schema
 
 		Version 1.3
@@ -58,111 +58,111 @@
 			: using a System.ComponentModel.TypeConverter
 			: and then encoded with base64 encoding.
 	-->
-  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
-    <xsd:element name="root" msdata:IsDataSet="true">
-      <xsd:complexType>
-        <xsd:choice maxOccurs="unbounded">
-          <xsd:element name="data">
-            <xsd:complexType>
-              <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
-              </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
-              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
-              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
-            </xsd:complexType>
-          </xsd:element>
-          <xsd:element name="resheader">
-            <xsd:complexType>
-              <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-              </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" />
-            </xsd:complexType>
-          </xsd:element>
-        </xsd:choice>
-      </xsd:complexType>
-    </xsd:element>
-  </xsd:schema>
-  <resheader name="resmimetype">
-    <value>text/microsoft-resx</value>
-  </resheader>
-  <resheader name="version">
-    <value>1.3</value>
-  </resheader>
-  <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </resheader>
-  <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </resheader>
-  <data name="DisplayCriteria" xml:space="preserve">
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+							<xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+							<xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>1.3</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="DisplayCriteria" xml:space="preserve">
     <value>表示条件</value>
   </data>
-  <data name="Ship" xml:space="preserve">
+	<data name="Ship" xml:space="preserve">
     <value>対象艦</value>
   </data>
-  <data name="SearchInFleet" xml:space="preserve">
+	<data name="SearchInFleet" xml:space="preserve">
     <value>艦隊から探す</value>
   </data>
-  <data name="SearchInFleetToolTip" xml:space="preserve">
+	<data name="SearchInFleetToolTip" xml:space="preserve">
     <value>現在艦隊に所属している艦のみ選択可能にします。</value>
   </data>
-  <data name="SortieExp" xml:space="preserve">
+	<data name="SortieExp" xml:space="preserve">
     <value>出撃あたりの獲得Exp</value>
   </data>
-  <data name="ShowAllASWEquipments" xml:space="preserve">
+	<data name="ShowAllASWEquipments" xml:space="preserve">
     <value>対潜装備全表示</value>
   </data>
-  <data name="ShowAllASWEquipmentsToolTip" xml:space="preserve">
+	<data name="ShowAllASWEquipmentsToolTip" xml:space="preserve">
     <value>すべてのソナー・爆雷の組み合わせを表示します。</value>
   </data>
-  <data name="ShowAllLevel" xml:space="preserve">
+	<data name="ShowAllLevel" xml:space="preserve">
     <value>全Lv表示</value>
   </data>
-  <data name="ShowAllLevelToolTip" xml:space="preserve">
+	<data name="ShowAllLevelToolTip" xml:space="preserve">
     <value>有効な時は Lv. 1 から表示します。
 無効な時は次のレベルから表示します。</value>
   </data>
-  <data name="AswOffset" xml:space="preserve">
+	<data name="AswOffset" xml:space="preserve">
     <value>対潜改修</value>
   </data>
-  <data name="ASWModernizationToolTip" xml:space="preserve">
+	<data name="ASWModernizationToolTip" xml:space="preserve">
     <value>対潜改修値を現在値から変更します。</value>
   </data>
-  <data name="ExpUnitToolTip" xml:space="preserve">
+	<data name="ExpUnitToolTip" xml:space="preserve">
     <value>1回の出撃当たりの獲得Exp. を入力すると、出撃回数が計算できます。</value>
   </data>
-  <data name="GroupExp" xml:space="preserve">
+	<data name="GroupExp" xml:space="preserve">
     <value>必要Exp</value>
   </data>
-  <data name="ColumnSortieCount" xml:space="preserve">
+	<data name="ColumnSortieCount" xml:space="preserve">
     <value>出撃回数</value>
   </data>
-  <data name="ASW" xml:space="preserve">
+	<data name="ASW" xml:space="preserve">
     <value>対潜</value>
   </data>
-  <data name="ColumnEquipment" xml:space="preserve">
+	<data name="ColumnEquipment" xml:space="preserve">
     <value>先制対潜装備</value>
   </data>
-  <data name="Title" xml:space="preserve">
+	<data name="Title" xml:space="preserve">
     <value>必要経験値計算</value>
   </data>
-  <data name="NoShipsAvailable" xml:space="preserve">
+	<data name="NoShipsAvailable" xml:space="preserve">
     <value>艦船が存在しません。
 母港まで移動してください。</value>
   </data>
-  <data name="ShipsUnavailable" xml:space="preserve">
+	<data name="ShipsUnavailable" xml:space="preserve">
     <value>対象艦船なし</value>
   </data>
-  <data name="AswUnknown" xml:space="preserve">
+	<data name="AswUnknown" xml:space="preserve">
     <value>＊対潜値が不明なため、成長予測ができません。</value>
   </data>
-  <data name="AswApproximated" xml:space="preserve">
+	<data name="AswApproximated" xml:space="preserve">
     <value>＊対潜値が未確定なため、成長予測は不正確です。</value>
   </data>
-  <data name="Modernization" xml:space="preserve">
+	<data name="Modernization" xml:space="preserve">
     <value>現在改修</value>
   </data>
 </root>

@@ -24,6 +24,11 @@ public static class SoftwareInformation
 	/// </summary>
 	public static string SoftwareNameEnglish => "Electronic Observer";
 
+	/// <summary>
+	/// ソフトウェア名(简体中文)
+	/// </summary>
+	public static string SoftwareNameSChinese => "七四式电子观测仪EN";
+	
 
 	/// <summary>
 	/// バージョン(日本語, ソフトウェア名を含みます)
@@ -35,6 +40,11 @@ public static class SoftwareInformation
 	/// バージョン(英語)
 	/// </summary>
 	public static string VersionEnglish => typeof(App).Assembly.GetName().Version.ToString();
+
+	/// <summary>
+	/// バージョン(日本語, ソフトウェア名を含みます)
+	/// </summary>
+	public static string VersionSChinese => typeof(App).Assembly.GetName().Version.ToString();
 
 
 	/// <summary>

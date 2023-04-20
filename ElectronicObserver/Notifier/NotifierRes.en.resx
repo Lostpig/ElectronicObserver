@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-  <!-- 
+	<!-- 
     Microsoft ResX Schema 
     
     Version 2.0
@@ -59,161 +59,161 @@
             : using a System.ComponentModel.TypeConverter
             : and then encoded with base64 encoding.
     -->
-  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
-    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
-    <xsd:element name="root" msdata:IsDataSet="true">
-      <xsd:complexType>
-        <xsd:choice maxOccurs="unbounded">
-          <xsd:element name="metadata">
-            <xsd:complexType>
-              <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" />
-              </xsd:sequence>
-              <xsd:attribute name="name" use="required" type="xsd:string" />
-              <xsd:attribute name="type" type="xsd:string" />
-              <xsd:attribute name="mimetype" type="xsd:string" />
-              <xsd:attribute ref="xml:space" />
-            </xsd:complexType>
-          </xsd:element>
-          <xsd:element name="assembly">
-            <xsd:complexType>
-              <xsd:attribute name="alias" type="xsd:string" />
-              <xsd:attribute name="name" type="xsd:string" />
-            </xsd:complexType>
-          </xsd:element>
-          <xsd:element name="data">
-            <xsd:complexType>
-              <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
-              </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
-              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
-              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
-              <xsd:attribute ref="xml:space" />
-            </xsd:complexType>
-          </xsd:element>
-          <xsd:element name="resheader">
-            <xsd:complexType>
-              <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-              </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" />
-            </xsd:complexType>
-          </xsd:element>
-        </xsd:choice>
-      </xsd:complexType>
-    </xsd:element>
-  </xsd:schema>
-  <resheader name="resmimetype">
-    <value>text/microsoft-resx</value>
-  </resheader>
-  <resheader name="version">
-    <value>2.0</value>
-  </resheader>
-  <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </resheader>
-  <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </resheader>
-  <data name="AnchorageRepair" xml:space="preserve">
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="metadata">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" />
+							</xsd:sequence>
+							<xsd:attribute name="name" use="required" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+							<xsd:attribute ref="xml:space" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="assembly">
+						<xsd:complexType>
+							<xsd:attribute name="alias" type="xsd:string" />
+							<xsd:attribute name="name" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+							<xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+							<xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+							<xsd:attribute ref="xml:space" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>2.0</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="AnchorageRepair" xml:space="preserve">
     <value>Anchorage Repair</value>
   </data>
-  <data name="AnchorageRepairFinished" xml:space="preserve">
+	<data name="AnchorageRepairFinished" xml:space="preserve">
     <value>20 minutes has passed since the start of anchorage repair.</value>
   </data>
-  <data name="ConditionText" xml:space="preserve">
+	<data name="ConditionText" xml:space="preserve">
     <value>All ship girls in Fleet {0} [{1}] have restored morale.</value>
   </data>
-  <data name="ConditionTitle" xml:space="preserve">
+	<data name="ConditionTitle" xml:space="preserve">
     <value>Morale Restored</value>
   </data>
-  <data name="ConstructionText" xml:space="preserve">
+	<data name="ConstructionText" xml:space="preserve">
     <value>Construction of {1} in Arsenal dock #{0} is complete.</value>
   </data>
-  <data name="ConstructionTitle" xml:space="preserve">
+	<data name="ConstructionTitle" xml:space="preserve">
     <value>Construction Complete</value>
   </data>
-  <data name="DamagedText" xml:space="preserve">
+	<data name="DamagedText" xml:space="preserve">
     <value>{0} is critically damaged!</value>
   </data>
-  <data name="DamagedTitle" xml:space="preserve">
+	<data name="DamagedTitle" xml:space="preserve">
     <value>! Critical Damage !</value>
   </data>
-  <data name="ExpeditionText" xml:space="preserve">
+	<data name="ExpeditionText" xml:space="preserve">
     <value>Fleet {0} [{1}] has returned from expedition [{2}: {3}]</value>
   </data>
-  <data name="ExpeditionTitle" xml:space="preserve">
+	<data name="ExpeditionTitle" xml:space="preserve">
     <value>Expedition Returned</value>
   </data>
-  <data name="FailedPlaySound" xml:space="preserve">
+	<data name="FailedPlaySound" xml:space="preserve">
     <value>Notification system: failed to play back sound file.</value>
   </data>
-  <data name="FailedToLoadImage" xml:space="preserve">
+	<data name="FailedToLoadImage" xml:space="preserve">
     <value>Notification system: failed to load image file {0}.</value>
   </data>
-  <data name="FailedToLoadSound" xml:space="preserve">
+	<data name="FailedToLoadSound" xml:space="preserve">
     <value>Notification system: failed to load sound file {0}.</value>
   </data>
-  <data name="RepairText" xml:space="preserve">
+	<data name="RepairText" xml:space="preserve">
     <value>Repair of {1} in dock #{0} is complete.</value>
   </data>
-  <data name="RepairTitle" xml:space="preserve">
+	<data name="RepairTitle" xml:space="preserve">
     <value>Repair Complete</value>
   </data>
-  <data name="RemodelTitle" xml:space="preserve">
+	<data name="RemodelTitle" xml:space="preserve">
     <value>Remodel Available</value>
   </data>
-  <data name="RemodelText" xml:space="preserve">
+	<data name="RemodelText" xml:space="preserve">
     <value>{0} can now be remodeled to {1}</value>
   </data>
-  <data name="AdmiralExp" xml:space="preserve">
+	<data name="AdmiralExp" xml:space="preserve">
     <value>Admiral Exp+</value>
   </data>
-  <data name="ShipExp" xml:space="preserve">
+	<data name="ShipExp" xml:space="preserve">
     <value>Ship Exp+</value>
   </data>
-  <data name="ExpeditionResult" xml:space="preserve">
+	<data name="ExpeditionResult" xml:space="preserve">
     <value>Expedition result - </value>
   </data>
-  <data name="NoResourcesGained" xml:space="preserve">
+	<data name="NoResourcesGained" xml:space="preserve">
     <value>No resources gained</value>
   </data>
-  <data name="ShipLevelUp" xml:space="preserve">
+	<data name="ShipLevelUp" xml:space="preserve">
     <value>{0} has attained Lv. {1}.</value>
   </data>
-  <data name="ShipsResupplied" xml:space="preserve">
+	<data name="ShipsResupplied" xml:space="preserve">
     <value>Ships resupplied. Cost: </value>
   </data>
-  <data name="AirBaseResupplyCost" xml:space="preserve">
+	<data name="AirBaseResupplyCost" xml:space="preserve">
     <value>「{1}」 of Air Base #{0} has been resupplied. Cost: Fuel×{2}, Bauxite×{3}</value>
   </data>
-  <data name="ShipSuccessfullyRemodeled" xml:space="preserve">
+	<data name="ShipSuccessfullyRemodeled" xml:space="preserve">
     <value>{0} Lv. {1} has been successfully remodeled.</value>
   </data>
-  <data name="EquipmentHasBenScrapped" xml:space="preserve">
+	<data name="EquipmentHasBenScrapped" xml:space="preserve">
     <value>{0}{1} has been scrapped.</value>
   </data>
-  <data name="ShipHasBeenScrapped" xml:space="preserve">
+	<data name="ShipHasBeenScrapped" xml:space="preserve">
     <value>{0} has been scrapped and removed from the navy list.</value>
   </data>
-  <data name="SortieingTo" xml:space="preserve">
+	<data name="SortieingTo" xml:space="preserve">
     <value>⚓ Sortieing to {0}-{1}-{2}: {3}</value>
   </data>
-  <data name="HasSortiedTo" xml:space="preserve">
+	<data name="HasSortiedTo" xml:space="preserve">
     <value>#{0} 「{1}」 has sortied to 「{2}-{3} {4}」.</value>
   </data>
-  <data name="HasBeenSentToExpedition" xml:space="preserve">
+	<data name="HasBeenSentToExpedition" xml:space="preserve">
     <value>#{0} 「{1}」 has been sent to expedition 「{2}: {3}」.</value>
   </data>
-  <data name="StartedRepairingShip" xml:space="preserve">
+	<data name="StartedRepairingShip" xml:space="preserve">
     <value>Started repairing {1} ({2}/{3}) on dock #{0}. (Fuel×{4}, Steel×{5}, {6})</value>
   </data>
-  <data name="BucketUsed" xml:space="preserve">
+	<data name="BucketUsed" xml:space="preserve">
     <value>Instant Repair×1</value>
   </data>
-  <data name="ETA" xml:space="preserve">
+	<data name="ETA" xml:space="preserve">
     <value>ETA: </value>
   </data>
 </root>
