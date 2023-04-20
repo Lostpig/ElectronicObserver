@@ -8,7 +8,7 @@
 		<UseWPF>true</UseWPF>
 		<Platforms>x64</Platforms>
 		<Nullable>enable</Nullable>
-		<SatelliteResourceLanguages>en;ja</SatelliteResourceLanguages>
+		<SatelliteResourceLanguages>en;ja;zh-Hans</SatelliteResourceLanguages>
 		<LangVersion>preview</LangVersion>
 	</PropertyGroup>
 	<PropertyGroup>
@@ -25,6 +25,9 @@
 		<Copyright>Copyright ©  2014 Andante</Copyright>
 		<Trademark />
 		<Culture />
+		<AssemblyVersion>5.2.5.2</AssemblyVersion>
+		<FileVersion>5.2.5.2</FileVersion>
+		<Version>5.2.5.2-z1</Version>
 		<AssemblyVersion>5.2.6.1</AssemblyVersion>
 		<FileVersion>5.2.6.1</FileVersion>
 		<Version>5.2.6.1</Version>

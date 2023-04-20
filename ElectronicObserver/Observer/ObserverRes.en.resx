@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-  <!-- 
+	<!-- 
     Microsoft ResX Schema 
     
     Version 2.0
@@ -59,134 +59,134 @@
             : using a System.ComponentModel.TypeConverter
             : and then encoded with base64 encoding.
     -->
-  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
-    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
-    <xsd:element name="root" msdata:IsDataSet="true">
-      <xsd:complexType>
-        <xsd:choice maxOccurs="unbounded">
-          <xsd:element name="metadata">
-            <xsd:complexType>
-              <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" />
-              </xsd:sequence>
-              <xsd:attribute name="name" use="required" type="xsd:string" />
-              <xsd:attribute name="type" type="xsd:string" />
-              <xsd:attribute name="mimetype" type="xsd:string" />
-              <xsd:attribute ref="xml:space" />
-            </xsd:complexType>
-          </xsd:element>
-          <xsd:element name="assembly">
-            <xsd:complexType>
-              <xsd:attribute name="alias" type="xsd:string" />
-              <xsd:attribute name="name" type="xsd:string" />
-            </xsd:complexType>
-          </xsd:element>
-          <xsd:element name="data">
-            <xsd:complexType>
-              <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
-              </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
-              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
-              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
-              <xsd:attribute ref="xml:space" />
-            </xsd:complexType>
-          </xsd:element>
-          <xsd:element name="resheader">
-            <xsd:complexType>
-              <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-              </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" />
-            </xsd:complexType>
-          </xsd:element>
-        </xsd:choice>
-      </xsd:complexType>
-    </xsd:element>
-  </xsd:schema>
-  <resheader name="resmimetype">
-    <value>text/microsoft-resx</value>
-  </resheader>
-  <resheader name="version">
-    <value>2.0</value>
-  </resheader>
-  <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </resheader>
-  <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </resheader>
-  <data name="DetectedSynergy" xml:space="preserve">
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="metadata">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" />
+							</xsd:sequence>
+							<xsd:attribute name="name" use="required" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+							<xsd:attribute ref="xml:space" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="assembly">
+						<xsd:complexType>
+							<xsd:attribute name="alias" type="xsd:string" />
+							<xsd:attribute name="name" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+							<xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+							<xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+							<xsd:attribute ref="xml:space" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>2.0</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="DetectedSynergy" xml:space="preserve">
     <value>Detected equipment synergy: </value>
   </data>
-  <data name="Range" xml:space="preserve">
+	<data name="Range" xml:space="preserve">
     <value>Range</value>
   </data>
-  <data name="Luck" xml:space="preserve">
+	<data name="Luck" xml:space="preserve">
     <value>Luck</value>
   </data>
-  <data name="Los" xml:space="preserve">
+	<data name="Los" xml:space="preserve">
     <value>LOS</value>
   </data>
-  <data name="Firepower" xml:space="preserve">
+	<data name="Firepower" xml:space="preserve">
     <value>FP</value>
   </data>
-  <data name="Evasion" xml:space="preserve">
+	<data name="Evasion" xml:space="preserve">
     <value>Evasion</value>
   </data>
-  <data name="Torpedo" xml:space="preserve">
+	<data name="Torpedo" xml:space="preserve">
     <value>Torpedo</value>
   </data>
-  <data name="AntiAir" xml:space="preserve">
+	<data name="AntiAir" xml:space="preserve">
     <value>AA</value>
   </data>
-  <data name="Armor" xml:space="preserve">
+	<data name="Armor" xml:space="preserve">
     <value>Armor</value>
   </data>
-  <data name="Asw" xml:space="preserve">
+	<data name="Asw" xml:space="preserve">
     <value>ASW</value>
   </data>
-  <data name="RepairingShips" xml:space="preserve">
+	<data name="RepairingShips" xml:space="preserve">
     <value>🛠 Repairing {0} ships</value>
   </data>
-  <data name="FirstClassMedals" xml:space="preserve">
+	<data name="FirstClassMedals" xml:space="preserve">
     <value>🥇 First-class medals: {0}</value>
   </data>
-  <data name="ServerRank" xml:space="preserve">
+	<data name="ServerRank" xml:space="preserve">
     <value>Rank {0} on {1}</value>
   </data>
-  <data name="AdmiralNameLevel" xml:space="preserve">
+	<data name="AdmiralNameLevel" xml:space="preserve">
     <value>{0} (HQ Level {1})</value>
   </data>
-  <data name="RankDataNotLoaded" xml:space="preserve">
+	<data name="RankDataNotLoaded" xml:space="preserve">
     <value>Rank data not loaded</value>
   </data>
-  <data name="KantaiCollection" xml:space="preserve">
+	<data name="KantaiCollection" xml:space="preserve">
     <value>Kantai Collection</value>
   </data>
-  <data name="Idle" xml:space="preserve">
+	<data name="Idle" xml:space="preserve">
     <value>Idle</value>
   </data>
-  <data name="LoadingIntegration" xml:space="preserve">
+	<data name="LoadingIntegration" xml:space="preserve">
     <value>Loading Integration...</value>
   </data>
-  <data name="DoingExercises" xml:space="preserve">
+	<data name="DoingExercises" xml:space="preserve">
     <value>⚓ Doing PVP</value>
   </data>
-  <data name="APIObserverFailed" xml:space="preserve">
+	<data name="APIObserverFailed" xml:space="preserve">
     <value>APIObserver: 受信開始に失敗しました。</value>
   </data>
-  <data name="ResponseRecieved" xml:space="preserve">
+	<data name="ResponseRecieved" xml:space="preserve">
     <value>Received response: </value>
   </data>
-  <data name="Error201" xml:space="preserve">
+	<data name="Error201" xml:space="preserve">
     <value>Error code 201 was received. It may be triggered by macro detection or by starting KanColle from another device.</value>
   </data>
-  <data name="ErrorFromServer" xml:space="preserve">
+	<data name="ErrorFromServer" xml:space="preserve">
     <value>Error code {0} was received from the server</value>
   </data>
-  <data name="ErrorResponse" xml:space="preserve">
+	<data name="ErrorResponse" xml:space="preserve">
     <value>There was an error while receiving the response.</value>
   </data>
 </root>

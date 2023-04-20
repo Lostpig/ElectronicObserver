@@ -1,0 +1,753 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="metadata">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" />
+							</xsd:sequence>
+							<xsd:attribute name="name" use="required" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+							<xsd:attribute ref="xml:space" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="assembly">
+						<xsd:complexType>
+							<xsd:attribute name="alias" type="xsd:string" />
+							<xsd:attribute name="name" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+							<xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+							<xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+							<xsd:attribute ref="xml:space" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>2.0</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="NetworkSettingsNote" xml:space="preserve">
+    <value>* 网络设置需要重启后生效</value>
+  </data>
+	<data name="UpstreamProxyToolTip" xml:space="preserve">
+    <value>上游代理服务器地址
+默认127.0.0.1</value>
+  </data>
+	<data name="Connection_DownstreamProxyLabel" xml:space="preserve">
+    <value>下游代理服务器(高级)：</value>
+  </data>
+	<data name="Connection_DownstreamProxyToolTip" xml:space="preserve">
+    <value>设置下游代理服务器。
+此设定项会覆盖上面的“上游代理服务器”设定项。
+限高级用户使用。</value>
+  </data>
+	<data name="Connection_UseSystemProxy" xml:space="preserve">
+    <value>使用系统代理</value>
+  </data>
+	<data name="Connection_UpstreamProxyPortToolTip" xml:space="preserve">
+    <value>代理服务器端口号</value>
+  </data>
+	<data name="Connection_UseUpstreamProxyToolTip" xml:space="preserve">
+    <value>使用代理服务器，或与其他第三方应用串联（如：MyFleetGirls）</value>
+  </data>
+	<data name="Connection_RegisterAsSystemProxy" xml:space="preserve">
+    <value>同时设置为系统代理</value>
+  </data>
+	<data name="Connection_SaveDataPathSearch" xml:space="preserve">
+    <value>...</value>
+  </data>
+	<data name="Connection_SaveReceivedData" xml:space="preserve">
+    <value>保存通信内容</value>
+  </data>
+	<data name="UI_JapaneseEquipmentTypes" xml:space="preserve">
+    <value>不翻译装备类别</value>
+  </data>
+	<data name="UI_JapaneseEquipmentNames" xml:space="preserve">
+    <value>不翻译装备名称</value>
+  </data>
+	<data name="UI_JapaneseShipTypes" xml:space="preserve">
+    <value>不翻译舰种</value>
+  </data>
+	<data name="UI_JapaneseShipNames" xml:space="preserve">
+    <value>不翻译舰名</value>
+  </data>
+	<data name="UI_DisableOtherTranslations" xml:space="preserve">
+    <value>禁用其他的翻译</value>
+  </data>
+	<data name="UI_DisableOtherTranslationsToolTip" xml:space="preserve">
+    <value>远征、出击地图、任务</value>
+  </data>
+	<data name="Theme" xml:space="preserve">
+    <value>主题：</value>
+  </data>
+	<data name="ThemeToolTip" xml:space="preserve">
+    <value>使用设定的主题。
+重启后生效。
+自定义项会使用Settings\ColorScheme.json里设置的颜色值。</value>
+  </data>
+	<data name="UI_RenderingTestToolTip" xml:space="preserve">
+    <value>效果预览。可拖拽下方的滑动条变更数值。</value>
+  </data>
+	<data name="UI_IsLayoutFixed" xml:space="preserve">
+    <value>字体高度固定</value>
+  </data>
+	<data name="UI_IsLayoutFixedToolTip" xml:space="preserve">
+    <value>对所有的UI字体使用相同的高度值。
+仅用时，各个UI元素可能使用各自不同的高度值。</value>
+  </data>
+	<data name="UI_BarColorMorphingToolTip" xml:space="preserve">
+    <value>对HP等状态条使用渐变效果。</value>
+  </data>
+	<data name="Log_SaveLogImmediately" xml:space="preserve">
+    <value>日志实时写入</value>
+  </data>
+	<data name="Log_SaveLogImmediatelyToolTip" xml:space="preserve">
+    <value>实时写入日志文件。
+禁用后仅在退出时保存日志文件。
+只有启用了“写入日志文件”项时本项才会生效。</value>
+  </data>
+	<data name="Log_SaveBattleLog" xml:space="preserve">
+    <value>保存战斗记录</value>
+  </data>
+	<data name="Log_SaveBattleLogToolTip" xml:space="preserve">
+    <value>保存战斗记录到文本文件。
+战斗记录会保存在BattleLog文件夹下。</value>
+  </data>
+	<data name="Log_ShowSpoiler" xml:space="preserve">
+    <value>开启剧透</value>
+  </data>
+	<data name="Log_ShowSpoilerToolTip" xml:space="preserve">
+    <value>在日志中显示开发中的装备名、将会掉落的舰娘等。
+禁用后隐藏相关信息。</value>
+  </data>
+	<data name="Log_LogLevelToolTip" xml:space="preserve">
+    <value>日志等级，值越大重要级别越高
+1: Debug
+2: Normal
+3: Error-only</value>
+  </data>
+	<data name="TabPage4" xml:space="preserve">
+    <value>行为</value>
+  </data>
+	<data name="ApplicationId" xml:space="preserve">
+    <value>应用ID</value>
+  </data>
+	<data name="Control_ApplicationIDToolTip" xml:space="preserve">
+    <value>用于Discord Rich Presence的应用ID</value>
+  </data>
+	<data name="Control_ForceUpdate" xml:space="preserve">
+    <value>强制更新</value>
+  </data>
+	<data name="TranslationURL" xml:space="preserve">
+    <value>翻译URL</value>
+  </data>
+	<data name="Control_translationURLToolTip" xml:space="preserve">
+    <value>用于更新翻译文件的URL</value>
+  </data>
+	<data name="Control_DiscordRPCShowFCM" xml:space="preserve">
+    <value>显示甲章数量</value>
+  </data>
+	<data name="Control_DiscordRPCShowFCMToolTip" xml:space="preserve">
+    <value>在Discord Rich Presence里显示你拥有的甲章数量</value>
+  </data>
+	<data name="Control_EnableDiscordRPC" xml:space="preserve">
+    <value>启用Discord RPC</value>
+  </data>
+	<data name="Control_EnableDiscordRPCToolTip" xml:space="preserve">
+    <value>启用Discord Rich Presence</value>
+  </data>
+	<data name="DiscordRPCMessage" xml:space="preserve">
+    <value>Discord RPC消息</value>
+  </data>
+	<data name="Control_DiscordRPCMessageToolTip" xml:space="preserve">
+    <value>选择要在discord中显示哪些消息。在消息里使用{{secretary}}显示你的秘书舰名称。</value>
+  </data>
+	<data name="Control_ShowExpeditionAlertDialog" xml:space="preserve">
+    <value>远征不符合成功条件时发出警告</value>
+  </data>
+	<data name="Control_ShowExpeditionAlertDialogTooltip" xml:space="preserve">
+    <value>舰队不满足远征成功条件时，弹出警告窗口。</value>
+  </data>
+	<data name="Control_ShowSallyAreaAlertDialog" xml:space="preserve">
+    <value>未贴条舰娘出击时发出警告</value>
+  </data>
+	<data name="Control_ShowSallyAreaAlertDialogTooltip" xml:space="preserve">
+    <value>未贴条舰娘在出击活动海域时，弹出警告窗口。
+由于信息不一定及时更新，有可能出现误判。</value>
+  </data>
+	<data name="Control_PowerEngagementFormToolTip" xml:space="preserve">
+    <value>设置计算战斗伤害时的交战状态</value>
+  </data>
+	<data name="FormationModifier" xml:space="preserve">
+    <value>伤害计算交战状态：</value>
+  </data>
+	<data name="Control_UseSystemVolume" xml:space="preserve">
+    <value>使用系统音量</value>
+  </data>
+	<data name="Control_UseSystemVolumeToolTip" xml:space="preserve">
+    <value>使用系统音量来设置通知音效和BGM音量</value>
+  </data>
+	<data name="ProgressAutoSaving_Immediately" xml:space="preserve">
+    <value>实时</value>
+  </data>
+	<data name="LogFrequency" xml:space="preserve">
+    <value>记录自动保存：</value>
+  </data>
+	<data name="Debug_LoadAPIListOnLoad" xml:space="preserve">
+    <value>启动时读取API列表</value>
+  </data>
+	<data name="Debug_LoadAPIListOnLoadToolTip" xml:space="preserve">
+    <value>启动时读取以下列表中的API
+API列表的设置和使用方法请参考线上帮助</value>
+  </data>
+	<data name="Debug_EnableDebugMenu" xml:space="preserve">
+    <value>显示Debug菜单</value>
+  </data>
+	<data name="Debug_EnableDebugMenuToolTip" xml:space="preserve">
+    <value>启用Debug菜单。
+不推荐一般用户启用，请请自担风险！</value>
+  </data>
+	<data name="Life_CanCloseFloatWindowInLockToolTip" xml:space="preserve">
+    <value>在锁定布局时允许关闭浮动窗口。</value>
+  </data>
+	<data name="Life_LockLayout" xml:space="preserve">
+    <value>锁定布局</value>
+  </data>
+	<data name="Life_LockLayoutToolTip" xml:space="preserve">
+    <value>不允许变更组件布局和调整窗口大小。</value>
+  </data>
+	<data name="ClockMode" xml:space="preserve">
+    <value>时钟表示：</value>
+  </data>
+	<data name="Life_ClockFormat_ServerTime" xml:space="preserve">
+    <value>服务器时间</value>
+  </data>
+	<data name="Life_ClockFormat_PvpReset" xml:space="preserve">
+    <value>演习更新</value>
+  </data>
+	<data name="Life_ClockFormat_QuestReset" xml:space="preserve">
+    <value>任务更新</value>
+  </data>
+	<data name="Life_ShowStatusBar" xml:space="preserve">
+    <value>显示状态栏</value>
+  </data>
+	<data name="Life_CheckUpdateInformation" xml:space="preserve">
+    <value>检查更新</value>
+  </data>
+	<data name="Life_TopMost" xml:space="preserve">
+    <value>总在最前</value>
+  </data>
+	<data name="Life_ConfirmOnClosing" xml:space="preserve">
+    <value>退出时确认</value>
+  </data>
+	<data name="Window" xml:space="preserve">
+    <value>子窗口</value>
+  </data>
+	<data name="Fleet" xml:space="preserve">
+    <value>舰队</value>
+  </data>
+	<data name="FormFleet_AppliesSallyAreaColor" xml:space="preserve">
+    <value>根据出击海域变更舰名颜色</value>
+  </data>
+	<data name="FormFleet_AppliesSallyAreaColorToolTip" xml:space="preserve">
+    <value>根据出击海域设置舰名的背景色</value>
+  </data>
+	<data name="FleetStatus" xml:space="preserve">
+    <value>舰队状态表示：</value>
+  </data>
+	<data name="FormFleet_FleetStateDisplayMode_SingleStatus" xml:space="preserve">
+    <value>仅一个</value>
+  </data>
+	<data name="FormFleet_FleetStateDisplayMode_CollapseAll" xml:space="preserve">
+    <value>全部折叠</value>
+  </data>
+	<data name="FormFleet_FleetStateDisplayMode_CollapseMultiple" xml:space="preserve">
+    <value>显示多个时折叠</value>
+  </data>
+	<data name="FormFleet_FleetStateDisplayMode_ExpandAll" xml:space="preserve">
+    <value>全部展开</value>
+  </data>
+	<data name="FormFleet_EmphasizesSubFleetInPort" xml:space="preserve">
+    <value>高亮未出击舰队</value>
+  </data>
+	<data name="FormFleet_EmphasizesSubFleetInPortToolTip" xml:space="preserve">
+    <value>第2~4舰队在母港时高亮显示</value>
+  </data>
+	<data name="FormFleet_BlinkAtDamaged" xml:space="preserve">
+    <value>大破时闪烁</value>
+  </data>
+	<data name="FormFleet_BlinkAtDamagedToolTip" xml:space="preserve">
+    <value>存在大破舰娘时界面闪烁</value>
+  </data>
+	<data name="FormFleet_ReflectAnchorageRepairHealing" xml:space="preserve">
+    <value>显示泊地修理的HP回复</value>
+  </data>
+	<data name="FormFleet_ReflectAnchorageRepairHealingToolTip" xml:space="preserve">
+    <value>启用后，在泊地修理开始20分钟后在HP条上显示回复量</value>
+  </data>
+	<data name="FormFleet_ShowAirSuperiorityRange" xml:space="preserve">
+    <value>制空范围表示</value>
+  </data>
+	<data name="FormFleet_ShowAirSuperiorityRangeToolTip" xml:space="preserve">
+    <value>用范围表示“内部熟练度最小~最大”时的制空值。
+默认以内部熟练度最小计算制空值。</value>
+  </data>
+	<data name="FormFleet_ShowAircraftLevelByNumber" xml:space="preserve">
+    <value>数字显示舰载机熟练度</value>
+  </data>
+	<data name="FormFleet_ShowAircraftLevelByNumberToolTip" xml:space="preserve">
+    <value>显示时使用数字（1，2）代替熟练度标志（|, || ）</value>
+  </data>
+	<data name="FormFleet_FixedShipNameWidthToolTip" xml:space="preserve">
+    <value>舰名显示宽度固定</value>
+  </data>
+	<data name="FormFleet_ShowConditionIcon" xml:space="preserve">
+    <value>显示疲劳图标</value>
+  </data>
+	<data name="FormFleet_ShowConditionIconToolTip" xml:space="preserve">
+    <value>使用图标显示疲劳度。
+禁用时，使用背景色显示疲劳度。</value>
+  </data>
+	<data name="EquipmentLevelVisibility_OverlayProficiency" xml:space="preserve">
+    <value>熟练度优先</value>
+  </data>
+	<data name="FormFleet_EquipmentLevelVisibilityToolTip" xml:space="preserve">
+    <value>设置装备的改修等级和舰载机熟练度显示方式。</value>
+  </data>
+	<data name="EquipmentLevelDisplay" xml:space="preserve">
+    <value>装备信息显示：</value>
+  </data>
+	<data name="FormFleet_BlinkAtCompletionToolTip" xml:space="preserve">
+    <value>远征、入渠完成时，栏位背景色闪烁。</value>
+  </data>
+	<data name="FormFleet_ShowAnchorageRepairingTimer" xml:space="preserve">
+    <value>显示泊地修理时间</value>
+  </data>
+	<data name="FormFleet_ShowAnchorageRepairingTimerToolTip" xml:space="preserve">
+    <value>在舰队一览中显示泊地修理的时间</value>
+  </data>
+	<data name="FormFleet_AirSuperiorityMethod_Disabled" xml:space="preserve">
+    <value>忽略熟练度</value>
+  </data>
+	<data name="FormFleet_AirSuperiorityMethod_Enabled" xml:space="preserve">
+    <value>包含熟练度</value>
+  </data>
+	<data name="FormFleet_ShowNextExpToolTip" xml:space="preserve">
+    <value>是否显示升级所需经验值。
+不显示可以节约空间。</value>
+  </data>
+	<data name="FormFleet_ShortenHPBar" xml:space="preserve">
+    <value>缩短HP条</value>
+  </data>
+	<data name="FormFleet_FixShipNameWidth" xml:space="preserve">
+    <value>舰名宽度固定</value>
+  </data>
+	<data name="FormFleet_FixShipNameWidthToolTip" xml:space="preserve">
+    <value>舰名显示区域宽度固定，可以节约空间。
+不过较长的舰娘名字会被截断。</value>
+  </data>
+	<data name="FormFleet_IsScrollable" xml:space="preserve">
+    <value>显示滚动条</value>
+  </data>
+	<data name="FormFleet_IsScrollableToolTip" xml:space="preserve">
+    <value>内容超出显示区域时显示滚动条</value>
+  </data>
+	<data name="FormFleet_ShowAircraft" xml:space="preserve">
+    <value>显示舰载机数</value>
+  </data>
+	<data name="NameWidth" xml:space="preserve">
+    <value>舰名最大宽度：</value>
+  </data>
+	<data name="FormArsenal_MaxShipNameWidthToolTip" xml:space="preserve">
+    <value>设置舰名显示的最大宽度。</value>
+  </data>
+	<data name="FormArsenal_ShowShipName" xml:space="preserve">
+    <value>显示舰名</value>
+  </data>
+	<data name="HQ" xml:space="preserve">
+    <value>司令部</value>
+  </data>
+	<data name="OtherItem" xml:space="preserve">
+    <value>其他物品栏：</value>
+  </data>
+	<data name="Show" xml:space="preserve">
+    <value>是否显示：</value>
+  </data>
+	<data name="ShipNameSortMethod_GameSort" xml:space="preserve">
+    <value>游戏内部排序</value>
+  </data>
+	<data name="FormShipGroup_ShowStatusBar" xml:space="preserve">
+    <value>显示状态栏</value>
+  </data>
+	<data name="Combat" xml:space="preserve">
+    <value>战斗</value>
+  </data>
+	<data name="FormBattle_Display7thAsSingleLine" xml:space="preserve">
+    <value>在一行里显示7号舰</value>
+  </data>
+	<data name="FormBattle_Display7thAsSingleLineToolTip" xml:space="preserve">
+    <value>设置游击部队编成时，在哪里显示7号舰的信息。
+启用时在6号舰下方显示。
+禁用时会显示在支援舰队1号舰位置。</value>
+  </data>
+	<data name="FormBattle_ShowShipTypeInHPBar" xml:space="preserve">
+    <value>在HP条上显示舰种简称</value>
+  </data>
+	<data name="FormBattle_ShowShipTypeInHPBarToolTip" xml:space="preserve">
+    <value>显示舰种简称代替“HP”文本</value>
+  </data>
+	<data name="FormBattle_ShowHPBar" xml:space="preserve">
+    <value>显示HP条</value>
+  </data>
+	<data name="FormBattle_ShowHPBarToolTip" xml:space="preserve">
+    <value>不显示HP条时可以节约纵向空间。</value>
+  </data>
+	<data name="FormBattle_HideDuringBattle" xml:space="preserve">
+    <value>隐藏战斗剧透</value>
+  </data>
+	<data name="FormBattle_HideDuringBattleToolTip" xml:space="preserve">
+    <value>在战斗中不显示战斗预测信息，以避免剧透。
+在不显示状态下，可右键点击战斗窗口，在菜单中启用临时显示。</value>
+  </data>
+	<data name="Browser" xml:space="preserve">
+    <value>浏览器</value>
+  </data>
+	<data name="FormBrowser_SavesBrowserLog" xml:space="preserve">
+    <value>保存浏览器的错误日志 *</value>
+  </data>
+	<data name="FormBrowser_SavesBrowserLogTooltip" xml:space="preserve">
+    <value>启用时，会将浏览器错误日志保存到BrowserLog.log文件。</value>
+  </data>
+	<data name="FormBrowser_ForceColorProfile" xml:space="preserve">
+    <value>强制启用sRGB颜色配置 *</value>
+  </data>
+	<data name="FormBrowser_ForceColorProfileToolTip" xml:space="preserve">
+    <value>如果浏览器出现颜色错误，可尝试启用该项。
+需重启后生效。</value>
+  </data>
+	<data name="FormBrowser_PreserveDrawingBuffer" xml:space="preserve">
+    <value>保留绘画缓冲 *</value>
+  </data>
+	<data name="FormBrowser_PreserveDrawingBufferToolTip" xml:space="preserve">
+    <value>存在绘制错误时，启用可能可以改善问题。
+* 需重启后生效。</value>
+  </data>
+	<data name="RestartNotice" xml:space="preserve">
+    <value>标注 * 号的设定项，需要重启后才能生效</value>
+  </data>
+	<data name="FormBrowser_HardwareAccelerationEnabled" xml:space="preserve">
+    <value>硬件加速 *</value>
+  </data>
+	<data name="FormBrowser_HardwareAccelerationEnabledToolTip" xml:space="preserve">
+    <value>使用GPU渲染画面。
+需要硬件支持。
+* 重启后生效。</value>
+  </data>
+	<data name="FormBrowser_IsDMMreloadDialogDestroyable" xml:space="preserve">
+    <value>隐藏DMM页面弹窗</value>
+  </data>
+	<data name="FormBrowser_IsDMMreloadDialogDestroyableToolTip" xml:space="preserve">
+    <value>隐藏DMM的「エラーが発生したため、ページ更新します。」错误弹窗。</value>
+  </data>
+	<data name="FormBrowser_ConfirmAtRefresh" xml:space="preserve">
+    <value>刷新时确认</value>
+  </data>
+	<data name="FormBrowser_ConfirmAtRefreshToolTip" xml:space="preserve">
+    <value>刷新页面时弹出确认窗口。
+以防止误触。</value>
+  </data>
+	<data name="Screenshot" xml:space="preserve">
+    <value>截图</value>
+  </data>
+	<data name="Output" xml:space="preserve">
+    <value>保存方法：</value>
+  </data>
+	<data name="FormBrowser_ScreenShotSaveMode_ToFile" xml:space="preserve">
+    <value>保存为文件</value>
+  </data>
+	<data name="FormBrowser_ScreenShotSaveMode_ToClipboard" xml:space="preserve">
+    <value>保存到剪切板</value>
+  </data>
+	<data name="FormBrowser_ScreenShotSaveMode_Both" xml:space="preserve">
+    <value>两方都保存</value>
+  </data>
+	<data name="FormBrowser_ScreenShotFormat_AvoidTwitterDeterioration" xml:space="preserve">
+    <value>避免Twitter的图片压缩</value>
+  </data>
+	<data name="FormBrowser_ScreenShotFormat_AvoidTwitterDeteriorationToolTip" xml:space="preserve">
+    <value>Twitter将PNG图片自动转换为JPEG图片时会导致画质下降。
+为避免这种情况提前做处理。</value>
+  </data>
+	<data name="Zoom" xml:space="preserve">
+    <value>缩放：</value>
+  </data>
+	<data name="AB" xml:space="preserve">
+    <value>基地航空队</value>
+  </data>
+	<data name="FormBaseAirCorps_ShowEventMapOnly" xml:space="preserve">
+    <value>仅在活动海域显示航空基地</value>
+  </data>
+	<data name="FormBaseAirCorps_ShowEventMapOnlyToolTip" xml:space="preserve">
+    <value>启用时，活动期间只显示活动海域的航空基地
+非活动期间则显示所有的航空基地</value>
+  </data>
+	<data name="FormJson_AutoUpdate" xml:space="preserve">
+    <value>自动刷新</value>
+  </data>
+	<data name="FormJson_AutoUpdateToolTip" xml:space="preserve">
+    <value>自动刷新显示的API数据。
+可能增加处理负担。</value>
+  </data>
+	<data name="AutoUpdateCouldIncreaseLoad" xml:space="preserve">
+    <value>※ 启用自动刷新可能会增加处理负担</value>
+  </data>
+	<data name="FormJson_UpdatesTree" xml:space="preserve">
+    <value>同时刷新JSON树</value>
+  </data>
+	<data name="FormJson_UpdatesTreeToolTip" xml:space="preserve">
+    <value>当请求/接收API数据时自动刷新JSON树内容。
+仅在“自动刷新”设置项启用时生效。
+可能增加处理负担。</value>
+  </data>
+	<data name="FormJson_AutoUpdateFilterToolTip" xml:space="preserve">
+    <value>设置自动刷新时的API过滤，支持正则表达式。</value>
+  </data>
+	<data name="UpdateFilter" xml:space="preserve">
+    <value>自动刷新过滤器：</value>
+  </data>
+	<data name="silenceFullscreen" xml:space="preserve">
+    <value>全屏时静音</value>
+  </data>
+	<data name="Notification_Silencio" xml:space="preserve">
+    <value>忽略全部通知</value>
+  </data>
+	<data name="Notification_SilencioToolTip" xml:space="preserve">
+    <value>隐藏并静音所有通知。
+
+「シレンシオ！黙れ！」</value>
+  </data>
+	<data name="Notification_RemodelLevel" xml:space="preserve">
+    <value>改造等级</value>
+  </data>
+	<data name="BGMPlayer_SyncBrowserMute" xml:space="preserve">
+    <value>同步静音</value>
+  </data>
+	<data name="BGMPlayer_SyncBrowserMuteToolTip" xml:space="preserve">
+    <value>和浏览器窗口的静音同步</value>
+  </data>
+	<data name="APIListBrowser" xml:space="preserve">
+    <value>打开API列表文件</value>
+  </data>
+	<data name="Log_PlayTime" xml:space="preserve">
+    <value>游戏时间</value>
+  </data>
+	<data name="checkBoxUseSecretaryIconForRPC" xml:space="preserve">
+    <value>秘书图标显示游戏内图片</value>
+  </data>
+	<data name="checkBoxUseSecretaryIconForRPCToolTip" xml:space="preserve">
+    <value />
+  </data>
+	<data name="Control_EnableTsunDbSubmission" xml:space="preserve">
+    <value>启用TsunDb提交</value>
+  </data>
+	<data name="Notification_BaseAirCorps" xml:space="preserve">
+    <value>基地航空队通知</value>
+  </data>
+	<data name="Notification_BattleEnd" xml:space="preserve">
+    <value>战斗结束通知</value>
+  </data>
+	<data name="Theme_Light" xml:space="preserve">
+    <value>Light</value>
+  </data>
+	<data name="Theme_Dark" xml:space="preserve">
+    <value>Dark</value>
+  </data>
+	<data name="Theme_Custom" xml:space="preserve">
+    <value>自定义</value>
+  </data>
+	<data name="Control_PowerEngagementForm_Parallel" xml:space="preserve">
+    <value>同航战</value>
+  </data>
+	<data name="Control_PowerEngagementForm_HeadOn" xml:space="preserve">
+    <value>反航战</value>
+  </data>
+	<data name="Control_PowerEngagementForm_GreenT" xml:space="preserve">
+    <value>T字有利</value>
+  </data>
+	<data name="Control_PowerEngagementForm_RedT" xml:space="preserve">
+    <value>T字不利</value>
+  </data>
+	<data name="Connection_UseUpstreamProxy" xml:space="preserve">
+    <value>使用上游代理服务器：</value>
+  </data>
+	<data name="SaveDataPathDoesNotExist" xml:space="preserve">
+    <value>设定的文件夹不存在</value>
+  </data>
+	<data name="DialogCaptionErrorTitle" xml:space="preserve">
+    <value>错误</value>
+  </data>
+	<data name="PleaseStartKancolle" xml:space="preserve">
+    <value>请先开始游戏</value>
+  </data>
+	<data name="SavePacFileAs" xml:space="preserve">
+    <value>PAC文件另存为</value>
+  </data>
+	<data name="ProxyAutoConfigSaved" xml:space="preserve">
+    <value>PAC文件已保存。
+文件路径已复制到剪切板，请粘贴到指定位置。</value>
+  </data>
+	<data name="PacSavedTitle" xml:space="preserve">
+    <value>保存完成</value>
+  </data>
+	<data name="FailedToSavePac" xml:space="preserve">
+    <value>PAC文件保存失败</value>
+  </data>
+	<data name="PlayerVolumeWillBeSet" xml:space="preserve">
+    <value>将所有BGM的音量设置为{0}。
+确定要这么做么？</value>
+  </data>
+	<data name="ConfirmSetting" xml:space="preserve">
+    <value>音量统一设置确认</value>
+  </data>
+	<data name="UseLetterForNodes" xml:space="preserve">
+    <value>在节点名称上使用字母</value>
+  </data>
+	<data name="Language_English" xml:space="preserve">
+    <value>英语</value>
+  </data>
+	<data name="Language_Japanese" xml:space="preserve">
+    <value>日语</value>
+  </data>
+	<data name="FormBrowser_UseGadgetRedirect" xml:space="preserve">
+    <value>使用Gadget重定向 *</value>
+  </data>
+	<data name="UI_RestartHint" xml:space="preserve">
+    <value>修改主题和语言后，请重启74EO</value>
+  </data>
+	<data name="UI_LanguageLabel" xml:space="preserve">
+    <value>语言：</value>
+  </data>
+	<data name="FormBrowser_UseGadgetRedirectToolTip" xml:space="preserve">
+    <value>重定向Gadget API，以绕过IP封锁。
+如果你居住在日本或使用日本代理服务器，则不需要使用此项。</value>
+  </data>
+	<data name="FormBrowser_UseVulkanWorkaround" xml:space="preserve">
+    <value>Vulkan回避 *</value>
+  </data>
+	<data name="FormBrowser_UseVulkanWorkaroundToolTip" xml:space="preserve">
+    <value>移除WebView2的Valkan依赖文件来回避软件渲染，以解决旧设备上CPU负载过高的问题。</value>
+  </data>
+	<data name="FormBrowser_ShowContextMenu" xml:space="preserve">
+    <value>显示弹出菜单</value>
+  </data>
+	<data name="FormBrowser_ShowContextMenuToolTip" xml:space="preserve">
+    <value>在浏览器窗口内点击右键弹出菜单。</value>
+  </data>
+	<data name="PortAndUpstreamPortMustBeDifferent" xml:space="preserve">
+    <value>内部端口和上游代理服务器端口不能相同</value>
+  </data>
+	<data name="Edit" xml:space="preserve">
+    <value>编辑</value>
+  </data>
+	<data name="FormShipTraining_AllowMultiplePlanPerShip" xml:space="preserve">
+    <value>可以对舰娘重复添加训练计划</value>
+  </data>
+	<data name="FormShipTraining_AllowMultiplePlanPerShipToolTip" xml:space="preserve">
+    <value>不启用时，当添加新的训练计划时将只显示没有训练计划的舰娘。
+启用时，可以给已有训练计划的舰娘重复设置训练计划。</value>
+  </data>
+	<data name="Language_SimplifiedChinese" xml:space="preserve">
+		<value>簡体中文</value>
+	</data>
+</root>
