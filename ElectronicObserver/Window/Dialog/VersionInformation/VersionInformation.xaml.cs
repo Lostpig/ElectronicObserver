@@ -21,6 +21,7 @@ public partial class VersionInformationWindow
 		string versionText = CultureInfo.CurrentCulture.Name switch
 		{
 			"ja-JP" => SoftwareInformation.VersionJapanese,
+			"zh-Hans" => SoftwareInformation.SoftwareNameSChinese,
 			_ => SoftwareInformation.SoftwareNameEnglish
 		};
 

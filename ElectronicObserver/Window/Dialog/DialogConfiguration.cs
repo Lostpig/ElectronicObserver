@@ -113,7 +113,8 @@ public partial class DialogConfiguration : Form
 		UI_LanguageOptions.Items.AddRange(new object[]
 		{
 			Translation.Language_English,
-			Translation.Language_Japanese
+			Translation.Language_Japanese,
+			Translation.Language_SimplifiedChinese
 		});
 		UI_RestartHint.Text = Translation.UI_RestartHint;
 
@@ -759,6 +760,7 @@ public partial class DialogConfiguration : Form
 		UI_LanguageOptions.SelectedIndex = config.UI.Culture switch
 		{
 			"ja-JP" => 1,
+			"zh-Hans" => 2,
 			_ => 0
 		};
 
@@ -1009,6 +1011,7 @@ public partial class DialogConfiguration : Form
 		config.UI.Culture = UI_LanguageOptions.SelectedItem switch
 		{
 			string s when s == Translation.Language_Japanese => "ja-JP",
+			string s when s == Translation.Language_SimplifiedChinese => "zh-Hans",
 			_ => "en-US"
 		};
 

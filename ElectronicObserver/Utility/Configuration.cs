@@ -508,6 +508,7 @@ public sealed class Configuration
 				Culture = CultureInfo.CurrentCulture.Name switch
 				{
 					"ja-JP" => "ja-JP",
+					"zh-Hans" => "zh-Hans",
 					_ => "en-US"
 				};
 				bool disableTranslations = CultureInfo.CurrentCulture.Name switch
