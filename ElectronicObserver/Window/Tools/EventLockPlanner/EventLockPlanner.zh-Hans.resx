@@ -101,10 +101,10 @@
     <value>活动锁船规划</value>
   </data>
 	<data name="AddLock" xml:space="preserve">
-    <value>添加锁定</value>
+    <value>添加贴条</value>
   </data>
 	<data name="RemoveLock" xml:space="preserve">
-    <value>移除锁定</value>
+    <value>移除贴条</value>
   </data>
 	<data name="Daihatsu" xml:space="preserve">
     <value>大发系</value>
@@ -116,7 +116,7 @@
     <value>添加阶段</value>
   </data>
 	<data name="RemovePhase" xml:space="preserve">
-    <value>移除简短</value>
+    <value>移除阶段</value>
   </data>
 	<data name="Remove" xml:space="preserve">
     <value>移除</value>

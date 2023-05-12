@@ -154,7 +154,7 @@
     <value>移除</value>
   </data>
 	<data name="ViewerTitle" xml:space="preserve">
-    <value>艦娘訓練</value>
+    <value>舰娘训练</value>
   </data>
 	<data name="NotifyAnyRemodelReadyToolTip" xml:space="preserve">
     <value>例: 需要将神風从等级1开始练到神風改二

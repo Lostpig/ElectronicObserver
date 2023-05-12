@@ -264,7 +264,7 @@
     <value>已发送 {0} 到Kancolle Statistics Database。</value>
   </data>
 	<data name="ShipAdded" xml:space="preserve">
-    <value>{0}「{1}」已加入战列。</value>
+    <value>{0}「{1}」已加入队伍。</value>
   </data>
 	<data name="ShipConstructed" xml:space="preserve">
     <value>{0}「{1}」已建造完成。</value>

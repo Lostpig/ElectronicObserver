@@ -253,25 +253,25 @@
     <value>舰娘图鉴(&amp;S)</value>
   </data>
 	<data name="Tool_AlbumMasterEquipment" xml:space="preserve">
-    <value>装备土建(&amp;E)</value>
+    <value>装备图鉴(&amp;E)</value>
   </data>
 	<data name="Tool_AntiAirDefense" xml:space="preserve">
     <value>对空详情(&amp;A)</value>
   </data>
 	<data name="Tool_FleetImageGenerator" xml:space="preserve">
-    <value>编成画像导出(&amp;F)</value>
+    <value>导出编成图片(&amp;F)</value>
   </data>
 	<data name="Tool_BaseAirCorpsSimulation" xml:space="preserve">
     <value>基地航空队编成(&amp;B)</value>
   </data>
 	<data name="Tool_ExpChecker" xml:space="preserve">
-    <value>所需经验值计算(&amp;X)</value>
+    <value>经验值计算(&amp;X)</value>
   </data>
 	<data name="Tool_ExpeditionCheck" xml:space="preserve">
     <value>远征条件检查(&amp;M)</value>
   </data>
 	<data name="Tool_KancolleProgress" xml:space="preserve">
-    <value>艦これ进度</value>
+    <value>舰娘收集进度</value>
   </data>
 	<data name="Tool_ExtraBrowser" xml:space="preserve">
     <value>附加浏览器</value>
