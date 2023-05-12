@@ -748,6 +748,13 @@ API列表的设置和使用方法请参考线上帮助</value>
 启用时，可以给已有训练计划的舰娘重复设置训练计划。</value>
   </data>
 	<data name="Language_SimplifiedChinese" xml:space="preserve">
-		<value>簡体中文</value>
+		<value>简体中文</value>
+	</data>
+	<data name="Compass_DisplayAllPossibleEnemyComps" xml:space="preserve">
+		<value>显示所有敌军阵容预览</value>
+	</data>
+	<data name="Compass_DisplayAllPossibleEnemyCompsTooltip" xml:space="preserve">
+		<value>禁用时，仅显示游戏内自带的敌军阵容
+启用时显示所有可能的敌军阵容</value>
 	</data>
 </root>

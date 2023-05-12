@@ -609,10 +609,10 @@ CI类别: {1} ({2})</value>
     <value>(第二次空战未发生)</value>
   </data>
 	<data name="EnemyCandidate" xml:space="preserve">
-    <value>敌舰队候补</value>
+    <value>敌舰队阵容预览</value>
   </data>
 	<data name="NoFleetCandidates" xml:space="preserve">
-    <value>(敌舰队无候补)</value>
+    <value>(无可预览的敌舰队阵容)</value>
   </data>
 	<data name="BauxiteUsage" xml:space="preserve">
     <value>铝土: {0} ( {1}机 )

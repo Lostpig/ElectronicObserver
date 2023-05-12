@@ -337,7 +337,7 @@
     <value>(主炮x3)</value>
   </data>
 	<data name="MainAP" xml:space="preserve">
-    <value>(主炮/彻甲)</value>
+    <value>(主炮/穿甲弹)</value>
   </data>
 	<data name="MainMain" xml:space="preserve">
     <value>(主炮/主炮)</value>
@@ -772,10 +772,10 @@
     <value>对空CI ( {0}, {1}({2}) )</value>
   </data>
 	<data name="CutinTorpedoDestroyerPicket" xml:space="preserve">
-    <value>驱逐CI(鱼雷/鱼雷/水雷见张)</value>
+    <value>驱逐CI (鱼雷/鱼雷/水雷见张)</value>
   </data>
 	<data name="CutinTorpedoDrum" xml:space="preserve">
-    <value>驱逐CI(鱼雷/桶/水雷见张)</value>
+    <value>驱逐CI (鱼雷/桶/水雷见张)</value>
   </data>
 	<data name="SpecialMutsu" xml:space="preserve">
     <value>陆奥摸</value>
@@ -895,7 +895,7 @@
     <value>CI(主炮/电探)</value>
   </data>
 	<data name="CutinMainAP" xml:space="preserve">
-    <value>CI(主炮/彻甲)</value>
+    <value>CI(主炮/穿甲弹)</value>
   </data>
 	<data name="CutinMainMain" xml:space="preserve">
     <value>CI(主炮/主炮)</value>
