@@ -289,6 +289,26 @@
 				/>
 		</Grid>
 
+		<StackPanel Orientation="Horizontal">
+			<CheckBox
+				Content="{Binding Translation.UseGithubProxy}"
+				IsChecked="{Binding UseGithubProxy}"
+				/>
+
+			<TextBox 
+				Width="200"
+				IsEnabled="{Binding UseGithubProxy}"
+				Margin="4 0" 
+				VerticalAlignment="Center" 
+				Text="{Binding GithubProxyAddress}" />
+			<controls:NumberBox
+				IsEnabled="{Binding UseGithubProxy}"
+				Margin="4 0"
+				SpinButtonPlacementMode="Inline"
+				Value="{Binding GithubProxyPort}"
+				/>
+		</StackPanel>
+		
 		<CheckBox Content="{Binding Translation.Control_EnableTsunDbSubmission}" IsChecked="{Binding SubmitDataToTsunDb}" />
 	</StackPanel>
 </UserControl>

@@ -47,4 +47,6 @@ public class ConfigurationBehaviorTranslationViewModel : TranslationBaseViewMode
 	public string Control_ForceUpdate => Properties.Window.Dialog.DialogConfiguration.Control_ForceUpdate;
 
 	public string Control_EnableTsunDbSubmission => Properties.Window.Dialog.DialogConfiguration.Control_EnableTsunDbSubmission;
+
+	public string UseGithubProxy => ConfigRes.UseGithubProxy;
 }

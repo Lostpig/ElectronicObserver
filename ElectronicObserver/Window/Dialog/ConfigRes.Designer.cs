@@ -1532,6 +1532,15 @@ namespace ElectronicObserver.Window.Dialog {
         }
         
         /// <summary>
+        ///   查找类似 プロキシを利用でアップデートする 的本地化字符串。
+        /// </summary>
+        public static string UseGithubProxy {
+            get {
+                return ResourceManager.GetString("UseGithubProxy", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 システムプロキシを利用 的本地化字符串。
         /// </summary>
         public static string UseSystemProxy {

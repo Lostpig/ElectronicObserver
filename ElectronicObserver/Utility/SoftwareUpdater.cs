@@ -206,7 +206,7 @@ public class SoftwareUpdater
 	/// <returns></returns>
 	private static async Task ReadRemoteAndLocalUpdateData()
 	{
-		using HttpClient client = new HttpClient();
+		using HttpClient client = CreateHttpClient();
 		using HttpResponseMessage dataUpdateResponse = await client.GetAsync(DataUpdateURL);
 		using HttpResponseMessage translationUpdateResponse = await client.GetAsync(TranslationUpdateURL);
 
@@ -244,7 +244,7 @@ public class SoftwareUpdater
 	{
 		try
 		{
-			using HttpClient client = new();
+			using HttpClient client = CreateHttpClient();
 			ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
 			var url = @"https://raw.githubusercontent.com/ElectronicObserverEN/Data/master/Data/EOUpdater.exe";
 			var updaterFile = AppDomain.CurrentDomain.SetupInformation.ApplicationBase + @"\EOUpdater.exe";
@@ -272,7 +272,7 @@ public class SoftwareUpdater
 	{
 		try
 		{
-			using HttpClient client = new();
+			using HttpClient client = CreateHttpClient();
 			string tempFile = AppDataFolder + @"\latest.zip"; ;
 			ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
 			Console.WriteLine(Properties.Utility.SoftwareInformation.DownloadingUpdate);
@@ -378,7 +378,7 @@ public class SoftwareUpdater
 
 		try
 		{
-			using HttpClient client = new();
+			using HttpClient client = CreateHttpClient();
 			using HttpResponseMessage response = await client.GetAsync(url);
 
 			response.EnsureSuccessStatusCode();
@@ -395,6 +395,30 @@ public class SoftwareUpdater
 			Logger.Add(3, string.Format(Properties.Utility.SoftwareInformation.FailedToUpdateFile, filename, e.Message));
 			throw;
 		}
+	}
+
+	private static HttpClient CreateHttpClient ()
+	{
+		HttpClient client;
+		if (Configuration.Config.Control.UseGithubProxy && !string.IsNullOrEmpty(Configuration.Config.Control.GithubProxyAddress))
+		{
+			string proxyAddress = $"http://{Configuration.Config.Control.GithubProxyAddress}:{Configuration.Config.Control.GithubProxyPort}";
+			var proxy = new WebProxy
+			{
+				Address = new Uri(proxyAddress),
+			};
+			var httpClientHandler = new HttpClientHandler
+			{
+				Proxy = proxy,
+			};
+			client = new HttpClient(handler: httpClientHandler, disposeHandler: true);
+		} 
+		else
+		{
+			client = new HttpClient();
+		}
+
+		return client;
 	}
 }
 

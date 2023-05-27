@@ -709,6 +709,19 @@ public sealed class Configuration
 			public Uri UpdateRepoURL { get; set; }
 
 			/// <summary>
+			/// 是否启用Github代理（解决raw.githubusercontent.com被墙的问题）
+			/// </summary>
+			public bool UseGithubProxy { get; set; }
+			/// <summary>
+			/// Github代理服务器
+			/// </summary>
+			public string GithubProxyAddress { get; set; }
+			/// <summary>
+			/// Github代理服务器端口
+			/// </summary>
+			public ushort GithubProxyPort { get; set; }
+
+			/// <summary>
 			/// Should RPC use the icon of your flagship or not
 			/// </summary>
 			public bool UseFlagshipIconForRPC { get; set; }
@@ -731,6 +744,9 @@ public sealed class Configuration
 				DiscordRPCShowFCM = true;
 				DiscordRPCApplicationId = "";
 				UpdateRepoURL = new Uri("https://raw.githubusercontent.com/ElectronicObserverEN/Data/master/");
+				UseGithubProxy = false;
+				GithubProxyAddress = "";
+				GithubProxyPort = 0;
 				UseFlagshipIconForRPC = false;
 				SubmitDataToTsunDb = null;
 			}

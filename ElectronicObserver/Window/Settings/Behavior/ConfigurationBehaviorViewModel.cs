@@ -36,6 +36,12 @@ public partial class ConfigurationBehaviorViewModel : ConfigurationViewModelBase
 
 	public Uri UpdateRepoURL { get; set; }
 
+	public bool UseGithubProxy { get; set; }
+
+	public string GithubProxyAddress { get; set; }
+
+	public ushort GithubProxyPort { get; set; }
+
 	public bool UseFlagshipIconForRPC { get; set; }
 
 	public bool? SubmitDataToTsunDb { get; set; }
@@ -77,6 +83,9 @@ public partial class ConfigurationBehaviorViewModel : ConfigurationViewModelBase
 		DiscordRPCShowFCM = config.DiscordRPCShowFCM;
 		DiscordRPCApplicationId = config.DiscordRPCApplicationId;
 		UpdateRepoURL = config.UpdateRepoURL;
+		UseGithubProxy = config.UseGithubProxy;
+		GithubProxyAddress = config.GithubProxyAddress;
+		GithubProxyPort = config.GithubProxyPort;
 		UseFlagshipIconForRPC = config.UseFlagshipIconForRPC;
 		SubmitDataToTsunDb = config.SubmitDataToTsunDb;
 	}
@@ -94,6 +103,9 @@ public partial class ConfigurationBehaviorViewModel : ConfigurationViewModelBase
 		Config.DiscordRPCShowFCM = DiscordRPCShowFCM;
 		Config.DiscordRPCApplicationId = DiscordRPCApplicationId;
 		Config.UpdateRepoURL = UpdateRepoURL;
+		Config.UseGithubProxy = UseGithubProxy;
+		Config.GithubProxyAddress = GithubProxyAddress;
+		Config.GithubProxyPort = GithubProxyPort;
 		Config.UseFlagshipIconForRPC = UseFlagshipIconForRPC;
 		Config.SubmitDataToTsunDb = SubmitDataToTsunDb;
 	}
