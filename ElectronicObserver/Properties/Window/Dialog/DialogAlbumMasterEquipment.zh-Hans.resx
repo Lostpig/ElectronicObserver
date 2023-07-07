@@ -232,4 +232,22 @@
 	<data name="FailedToSearchOnWeb" xml:space="preserve">
     <value>在 DuckDuckGo 搜索舰名失败。</value>
   </data>
+	<data name="UpgradeCost" xml:space="preserve">
+		<value>改修必要资材</value>
+	</data>
+	<data name="EquipmentUpgrades" xml:space="preserve">
+		<value>改修必要资材</value>
+	</data>
+	<data name="Owned" xml:space="preserve">
+		<value>所持</value>
+	</data>
+	<data name="Helpers" xml:space="preserve">
+		<value>二号舰</value>
+	</data>
+	<data name="RequiredItems" xml:space="preserve">
+		<value>消费装备</value>
+	</data>
+	<data name="UpgradeLevel" xml:space="preserve">
+		<value>★</value>
+	</data>
 </root>

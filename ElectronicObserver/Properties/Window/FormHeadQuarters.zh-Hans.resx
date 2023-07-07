@@ -422,4 +422,7 @@
 	<data name="Pumpkin" xml:space="preserve">
     <value>南瓜</value>
   </data>
+	<data name="TeruTeruBozu" xml:space="preserve">
+		<value>晴天娃娃</value>
+	</data>
 </root>

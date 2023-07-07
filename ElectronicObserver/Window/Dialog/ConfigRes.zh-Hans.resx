@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-  <!-- 
+	<!-- 
     Microsoft ResX Schema 
     
     Version 2.0
@@ -59,594 +59,597 @@
             : using a System.ComponentModel.TypeConverter
             : and then encoded with base64 encoding.
     -->
-  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
-    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
-    <xsd:element name="root" msdata:IsDataSet="true">
-      <xsd:complexType>
-        <xsd:choice maxOccurs="unbounded">
-          <xsd:element name="metadata">
-            <xsd:complexType>
-              <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" />
-              </xsd:sequence>
-              <xsd:attribute name="name" use="required" type="xsd:string" />
-              <xsd:attribute name="type" type="xsd:string" />
-              <xsd:attribute name="mimetype" type="xsd:string" />
-              <xsd:attribute ref="xml:space" />
-            </xsd:complexType>
-          </xsd:element>
-          <xsd:element name="assembly">
-            <xsd:complexType>
-              <xsd:attribute name="alias" type="xsd:string" />
-              <xsd:attribute name="name" type="xsd:string" />
-            </xsd:complexType>
-          </xsd:element>
-          <xsd:element name="data">
-            <xsd:complexType>
-              <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
-              </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
-              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
-              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
-              <xsd:attribute ref="xml:space" />
-            </xsd:complexType>
-          </xsd:element>
-          <xsd:element name="resheader">
-            <xsd:complexType>
-              <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-              </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" />
-            </xsd:complexType>
-          </xsd:element>
-        </xsd:choice>
-      </xsd:complexType>
-    </xsd:element>
-  </xsd:schema>
-  <resheader name="resmimetype">
-    <value>text/microsoft-resx</value>
-  </resheader>
-  <resheader name="version">
-    <value>2.0</value>
-  </resheader>
-  <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </resheader>
-  <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </resheader>
-  <data name="AddVersionToFile" xml:space="preserve">
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="metadata">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" />
+							</xsd:sequence>
+							<xsd:attribute name="name" use="required" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+							<xsd:attribute ref="xml:space" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="assembly">
+						<xsd:complexType>
+							<xsd:attribute name="alias" type="xsd:string" />
+							<xsd:attribute name="name" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+							<xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+							<xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+							<xsd:attribute ref="xml:space" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>2.0</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="AddVersionToFile" xml:space="preserve">
     <value>添加版本名称到文件</value>
   </data>
-  <data name="Apply" xml:space="preserve">
+	<data name="Apply" xml:space="preserve">
     <value>应用</value>
   </data>
-  <data name="ApplyEffectsOfBox" xml:space="preserve">
+	<data name="ApplyEffectsOfBox" xml:space="preserve">
     <value>应用当前文本框内的内容</value>
   </data>
-  <data name="ApplyingRegistry" xml:space="preserve">
+	<data name="ApplyingRegistry" xml:space="preserve">
     <value>确定应用到注册表吗？
 * 完全应用需要重新启动。</value>
   </data>
-  <data name="ApplyonOK" xml:space="preserve">
+	<data name="ApplyonOK" xml:space="preserve">
     <value>＊各对话框点击OK按钮后应用</value>
   </data>
-  <data name="ApplyRegistryHint" xml:space="preserve">
+	<data name="ApplyRegistryHint" xml:space="preserve">
     <value>已应用到注册表。
 注意：点击下方的OK按钮后可能没有可见的改变。</value>
   </data>
-  <data name="ApplyStyleSheet" xml:space="preserve">
+	<data name="ApplyStyleSheet" xml:space="preserve">
     <value>应用样式表</value>
   </data>
-  <data name="ApplyStyleSheetHint" xml:space="preserve">
+	<data name="ApplyStyleSheetHint" xml:space="preserve">
     <value>只显示艦これ画面。
 根据运行环境，可能导致显示混乱。如发生这种情况请禁用。</value>
   </data>
-  <data name="Arsenal" xml:space="preserve">
+	<data name="Arsenal" xml:space="preserve">
     <value>工厂</value>
   </data>
-  <data name="AutoUpdate" xml:space="preserve">
+	<data name="AutoUpdate" xml:space="preserve">
     <value>自动更新</value>
   </data>
-  <data name="AutoUpdateHint" xml:space="preserve">
+	<data name="AutoUpdateHint" xml:space="preserve">
     <value>自动更新舰娘数据</value>
   </data>
-  <data name="Autumn25" xml:space="preserve">
+	<data name="Autumn25" xml:space="preserve">
     <value>2-5式(秋)</value>
   </data>
-  <data name="Behavior" xml:space="preserve">
+	<data name="Behavior" xml:space="preserve">
     <value>行为</value>
   </data>
-  <data name="BrowserVersion" xml:space="preserve">
+	<data name="BrowserVersion" xml:space="preserve">
     <value>浏览器版本：</value>
   </data>
-  <data name="BrowserVersionHint" xml:space="preserve">
+	<data name="BrowserVersionHint" xml:space="preserve">
     <value>设置内置浏览器的版本。
 7000相当于IE7，8000相当于IE8，11000相当于IE11。
 修改版本号可能导致行为变化。</value>
   </data>
-  <data name="Cancel" xml:space="preserve">
+	<data name="Cancel" xml:space="preserve">
     <value>取消</value>
   </data>
-  <data name="ClearingRegistry" xml:space="preserve">
+	<data name="ClearingRegistry" xml:space="preserve">
     <value>确定删除注册表吗？
 ＊完全生效需要重新启动。</value>
   </data>
-  <data name="Communication" xml:space="preserve">
+	<data name="Communication" xml:space="preserve">
     <value>网络</value>
   </data>
-  <data name="ConfirmRefreshHint" xml:space="preserve">
+	<data name="ConfirmRefreshHint" xml:space="preserve">
     <value>当刷新页面时演出确认对话框。
 防止误操作。</value>
   </data>
-  <data name="ConnectionPort" xml:space="preserve">
+	<data name="ConnectionPort" xml:space="preserve">
     <value>设置连接端口号</value>
   </data>
-  <data name="ConstructEnd" xml:space="preserve">
+	<data name="ConstructEnd" xml:space="preserve">
     <value>建造完成</value>
   </data>
-  <data name="CorruptLogs" xml:space="preserve">
+	<data name="CorruptLogs" xml:space="preserve">
     <value>＊不当操作可能会导致设置、记录信息损坏</value>
   </data>
-  <data name="CreationComplete" xml:space="preserve">
+	<data name="CreationComplete" xml:space="preserve">
     <value>制作完成</value>
   </data>
-  <data name="Daily" xml:space="preserve">
+	<data name="Daily" xml:space="preserve">
     <value>日常</value>
   </data>
-  <data name="Debug" xml:space="preserve">
+	<data name="Debug" xml:space="preserve">
     <value>Debug</value>
   </data>
-  <data name="Delete" xml:space="preserve">
+	<data name="Delete" xml:space="preserve">
     <value>清除</value>
   </data>
-  <data name="DeleteRegistryHint" xml:space="preserve">
+	<data name="DeleteRegistryHint" xml:space="preserve">
     <value>删除注册表。</value>
   </data>
-  <data name="DockEnd" xml:space="preserve">
+	<data name="DockEnd" xml:space="preserve">
     <value>入渠完成</value>
   </data>
-  <data name="EnableBrowser" xml:space="preserve">
+	<data name="EnableBrowser" xml:space="preserve">
     <value>启动时载入页面</value>
   </data>
-  <data name="EncodingHint" xml:space="preserve">
+	<data name="EncodingHint" xml:space="preserve">
     <value>设置输出文件的编码格式。
 ＊注意＊修改后可能导致无法读取过去的记录。
 请谨慎操作。</value>
   </data>
-  <data name="Enocding" xml:space="preserve">
+	<data name="Enocding" xml:space="preserve">
     <value>文字编码</value>
   </data>
-  <data name="ExpedReturn" xml:space="preserve">
+	<data name="ExpedReturn" xml:space="preserve">
     <value>远征归还</value>
   </data>
-  <data name="FailedClearRegistry" xml:space="preserve">
+	<data name="FailedClearRegistry" xml:space="preserve">
     <value>删除注册表失败。</value>
   </data>
-  <data name="FailedLoadRegistry" xml:space="preserve">
+	<data name="FailedLoadRegistry" xml:space="preserve">
     <value>从注册表读取失败。</value>
   </data>
-  <data name="FailedSaveProxy" xml:space="preserve">
+	<data name="FailedSaveProxy" xml:space="preserve">
     <value>PAC 脚本保存失败。</value>
   </data>
-  <data name="FailedSaveRegistry" xml:space="preserve">
+	<data name="FailedSaveRegistry" xml:space="preserve">
     <value>写入注册表失败。</value>
   </data>
-  <data name="FatigueRestore" xml:space="preserve">
+	<data name="FatigueRestore" xml:space="preserve">
     <value>疲劳回复</value>
   </data>
-  <data name="Filter" xml:space="preserve">
+	<data name="Filter" xml:space="preserve">
     <value>过滤器</value>
   </data>
-  <data name="FitHint" xml:space="preserve">
+	<data name="FitHint" xml:space="preserve">
     <value>启用时，画面根据窗口尺寸自动缩放。</value>
   </data>
-  <data name="FlashModeHint" xml:space="preserve">
+	<data name="FlashModeHint" xml:space="preserve">
     <value>设置Flash mode。
 默认值：opaque
 设置为Direct有可能提高性能表现。</value>
   </data>
-  <data name="FlashQuality" xml:space="preserve">
+	<data name="FlashQuality" xml:space="preserve">
     <value>Flash质量设置</value>
   </data>
-  <data name="FolderSearch" xml:space="preserve">
+	<data name="FolderSearch" xml:space="preserve">
     <value>查找文件夹</value>
   </data>
-  <data name="GPURendering" xml:space="preserve">
+	<data name="GPURendering" xml:space="preserve">
     <value>启用GPU渲染</value>
   </data>
-  <data name="GPURenderingHint" xml:space="preserve">
+	<data name="GPURenderingHint" xml:space="preserve">
     <value>设置内置浏览器启用GPU渲染。
 根据配置有可能提高处理速度。</value>
   </data>
-  <data name="Group" xml:space="preserve">
+	<data name="Group" xml:space="preserve">
     <value>分组</value>
   </data>
-  <data name="LayoutFile" xml:space="preserve">
+	<data name="LayoutFile" xml:space="preserve">
     <value>布局文件</value>
   </data>
-  <data name="LayoutSearch" xml:space="preserve">
+	<data name="LayoutSearch" xml:space="preserve">
     <value>打开布局文件</value>
   </data>
-  <data name="Log" xml:space="preserve">
+	<data name="Log" xml:space="preserve">
     <value>日志</value>
   </data>
-  <data name="LoggingLevel" xml:space="preserve">
+	<data name="LoggingLevel" xml:space="preserve">
     <value>日志输出等级</value>
   </data>
-  <data name="LoginURL" xml:space="preserve">
+	<data name="LoginURL" xml:space="preserve">
     <value>登录URL</value>
   </data>
-  <data name="LosFormula" xml:space="preserve">
+	<data name="LosFormula" xml:space="preserve">
     <value>索敌计算方式</value>
   </data>
-  <data name="Mainfont" xml:space="preserve">
+	<data name="Mainfont" xml:space="preserve">
     <value>主要字体</value>
   </data>
-  <data name="MayIncreaseSize" xml:space="preserve">
+	<data name="MayIncreaseSize" xml:space="preserve">
     <value>＊可能导致占用空间增大。</value>
   </data>
-  <data name="Mode" xml:space="preserve">
+	<data name="Mode" xml:space="preserve">
     <value>模式</value>
   </data>
-  <data name="Monthly" xml:space="preserve">
+	<data name="Monthly" xml:space="preserve">
     <value>月常</value>
   </data>
-  <data name="MoraleBorder" xml:space="preserve">
+	<data name="MoraleBorder" xml:space="preserve">
     <value>疲劳度警戒线</value>
   </data>
-  <data name="New25" xml:space="preserve">
+	<data name="New25" xml:space="preserve">
     <value>2-5新秋简易式</value>
   </data>
-  <data name="Notification" xml:space="preserve">
+	<data name="Notification" xml:space="preserve">
     <value>通知</value>
   </data>
-  <data name="NotificationSetting" xml:space="preserve">
+	<data name="NotificationSetting" xml:space="preserve">
     <value>通知设定...</value>
   </data>
-  <data name="Old25" xml:space="preserve">
+	<data name="Old25" xml:space="preserve">
     <value>(旧)2-5式</value>
   </data>
-  <data name="OneTimeOther" xml:space="preserve">
+	<data name="OneTimeOther" xml:space="preserve">
     <value>限一回/其他</value>
   </data>
-  <data name="OutputProxyScript" xml:space="preserve">
+	<data name="OutputProxyScript" xml:space="preserve">
     <value>保存PAC设置</value>
   </data>
-  <data name="Port" xml:space="preserve">
+	<data name="Port" xml:space="preserve">
     <value>端口号</value>
   </data>
-  <data name="ProxyScriptSaved" xml:space="preserve">
+	<data name="ProxyScriptSaved" xml:space="preserve">
     <value>自动代理脚本已保存并复制路径到剪切板。</value>
   </data>
-  <data name="QualitySelect" xml:space="preserve">
+	<data name="QualitySelect" xml:space="preserve">
     <value>品质</value>
   </data>
-  <data name="QualitySelectHint" xml:space="preserve">
+	<data name="QualitySelectHint" xml:space="preserve">
     <value>Flash品质设定。
 默认值为 high 。</value>
   </data>
-  <data name="Quests" xml:space="preserve">
+	<data name="Quests" xml:space="preserve">
     <value>任务</value>
   </data>
-  <data name="Registry" xml:space="preserve">
+	<data name="Registry" xml:space="preserve">
     <value>注册表</value>
   </data>
-  <data name="RegSystemProxyHint" xml:space="preserve">
+	<data name="RegSystemProxyHint" xml:space="preserve">
     <value>添加系统代理到注册表，可省略代理服务器设置。
 但可能导致其他副作用。
 详情请参考线上帮助文档。</value>
   </data>
-  <data name="SaveAllConnectionFiles" xml:space="preserve">
+	<data name="SaveAllConnectionFiles" xml:space="preserve">
     <value>保存所有通信文件</value>
   </data>
-  <data name="SaveAPIRequests" xml:space="preserve">
+	<data name="SaveAPIRequests" xml:space="preserve">
     <value>保存API Request部分</value>
   </data>
-  <data name="SaveAPIResponses" xml:space="preserve">
+	<data name="SaveAPIResponses" xml:space="preserve">
     <value>保存API Response部分</value>
   </data>
-  <data name="SaveErrorHint" xml:space="preserve">
+	<data name="SaveErrorHint" xml:space="preserve">
     <value>发生错误时可留下记录。
 将错误报告发送给开发人员可帮助修复Bug。
 默认保存在ErrorReport文件夹。</value>
   </data>
-  <data name="SaveErrorReport" xml:space="preserve">
+	<data name="SaveErrorReport" xml:space="preserve">
     <value>保存错误报告</value>
   </data>
-  <data name="SaveLocation" xml:space="preserve">
+	<data name="SaveLocation" xml:space="preserve">
     <value>保存位置</value>
   </data>
-  <data name="SaveLog" xml:space="preserve">
+	<data name="SaveLog" xml:space="preserve">
     <value>保存日志文件</value>
   </data>
-  <data name="SavePathDoesNotExist" xml:space="preserve">
+	<data name="SavePathDoesNotExist" xml:space="preserve">
     <value>指定的文件夹不存在</value>
   </data>
-  <data name="SaveProxyScriptDialog" xml:space="preserve">
+	<data name="SaveProxyScriptDialog" xml:space="preserve">
     <value>保存自动代理脚本</value>
   </data>
-  <data name="SaveReceivedData" xml:space="preserve">
+	<data name="SaveReceivedData" xml:space="preserve">
     <value>保存通信内容</value>
   </data>
-  <data name="SaveSWF" xml:space="preserve">
+	<data name="SaveSWF" xml:space="preserve">
     <value>保存SWF文件</value>
   </data>
-  <data name="Screenshot" xml:space="preserve">
+	<data name="Screenshot" xml:space="preserve">
     <value>截图</value>
   </data>
-  <data name="Settings" xml:space="preserve">
+	<data name="Settings" xml:space="preserve">
     <value>设置</value>
   </data>
-  <data name="ShortenHPHint" xml:space="preserve">
+	<data name="ShortenHPHint" xml:space="preserve">
     <value>缩短HP条，可节约空间。</value>
   </data>
-  <data name="ShowNextXP" xml:space="preserve">
+	<data name="ShowNextXP" xml:space="preserve">
     <value>显示升级所需经验</value>
   </data>
-  <data name="ShowStatusbarHint" xml:space="preserve">
+	<data name="ShowStatusbarHint" xml:space="preserve">
     <value>设置显示在底部的状态栏。
 可增加显示行数。</value>
   </data>
-  <data name="StayOnTop" xml:space="preserve">
+	<data name="StayOnTop" xml:space="preserve">
     <value>总在最前</value>
   </data>
-  <data name="Subfont" xml:space="preserve">
+	<data name="Subfont" xml:space="preserve">
     <value>次要字体</value>
   </data>
-  <data name="TaihaAdvance" xml:space="preserve">
+	<data name="TaihaAdvance" xml:space="preserve">
     <value>大破进击</value>
   </data>
-  <data name="TakeEffectOnRestart" xml:space="preserve">
+	<data name="TakeEffectOnRestart" xml:space="preserve">
     <value>＊重新启动后生效。</value>
   </data>
-  <data name="TryAgainAfterConnect" xml:space="preserve">
+	<data name="TryAgainAfterConnect" xml:space="preserve">
     <value>请等待艦これ连接后再试</value>
   </data>
-  <data name="UnderWayOnly" xml:space="preserve">
+	<data name="UnderWayOnly" xml:space="preserve">
     <value>只显示进行中</value>
   </data>
-  <data name="Unimplemented" xml:space="preserve">
+	<data name="Unimplemented" xml:space="preserve">
     <value>＊未实装＊</value>
   </data>
-  <data name="Weekly" xml:space="preserve">
+	<data name="Weekly" xml:space="preserve">
     <value>周常</value>
   </data>
-  <data name="Window" xml:space="preserve">
+	<data name="Window" xml:space="preserve">
     <value>窗口</value>
   </data>
-  <data name="ZoomRate" xml:space="preserve">
+	<data name="ZoomRate" xml:space="preserve">
     <value>缩放</value>
   </data>
-  <data name="ZoomToFit" xml:space="preserve">
+	<data name="ZoomToFit" xml:space="preserve">
     <value>适应窗口</value>
   </data>
-  <data name="AccessKey" xml:space="preserve">
+	<data name="AccessKey" xml:space="preserve">
     <value>Access key：</value>
   </data>
-  <data name="BlinkAtMaximum" xml:space="preserve">
+	<data name="BlinkAtMaximum" xml:space="preserve">
     <value>舰娘 / 装备数已满时闪烁</value>
   </data>
-  <data name="Database" xml:space="preserve">
+	<data name="Database" xml:space="preserve">
     <value>数据库</value>
   </data>
-  <data name="DatabaseDescription" xml:space="preserve">
+	<data name="DatabaseDescription" xml:space="preserve">
     <value>发送数据到KC-DB。
 详细信息请参考以下站点（打开外部浏览器）。</value>
   </data>
-  <data name="SendData" xml:space="preserve">
+	<data name="SendData" xml:space="preserve">
     <value>发送数据到KC-DB</value>
   </data>
-  <data name="Theme" xml:space="preserve">
+	<data name="Theme" xml:space="preserve">
     <value>主题</value>
   </data>
-  <data name="ThemeRestartWarning" xml:space="preserve">
+	<data name="ThemeRestartWarning" xml:space="preserve">
     <value>修改主题需要重启后生效。</value>
   </data>
-  <data name="AirSuperiorityMethod" xml:space="preserve">
+	<data name="AirSuperiorityMethod" xml:space="preserve">
     <value>制空计算方式：</value>
   </data>
-  <data name="DisplayEquipLevels" xml:space="preserve">
+	<data name="DisplayEquipLevels" xml:space="preserve">
     <value>改修等级/熟练度显示</value>
   </data>
-  <data name="DisplayEquipLevelsTooltip" xml:space="preserve">
+	<data name="DisplayEquipLevelsTooltip" xml:space="preserve">
     <value>设置装备改修等级和舰载机熟练度的显示方式
 </value>
   </data>
-  <data name="RecordAutoSaving_Daily" xml:space="preserve">
+	<data name="RecordAutoSaving_Daily" xml:space="preserve">
     <value>每天</value>
   </data>
-  <data name="RecordAutoSaving_Disable" xml:space="preserve">
+	<data name="RecordAutoSaving_Disable" xml:space="preserve">
     <value>从不</value>
   </data>
-  <data name="RecordAutoSaving_Hourly" xml:space="preserve">
+	<data name="RecordAutoSaving_Hourly" xml:space="preserve">
     <value>每小时</value>
   </data>
-  <data name="LoggingInterval" xml:space="preserve">
+	<data name="LoggingInterval" xml:space="preserve">
     <value>记录自动保存：</value>
   </data>
-  <data name="Formula33" xml:space="preserve">
+	<data name="Formula33" xml:space="preserve">
     <value>判定式(33)</value>
   </data>
-  <data name="BlinkAtCompletion" xml:space="preserve">
+	<data name="BlinkAtCompletion" xml:space="preserve">
     <value>完成时闪烁</value>
   </data>
-  <data name="CompassCandidate" xml:space="preserve">
+	<data name="CompassCandidate" xml:space="preserve">
     <value>显示的舰队数：</value>
   </data>
-  <data name="FileName" xml:space="preserve">
+	<data name="FileName" xml:space="preserve">
     <value>文件名</value>
   </data>
-  <data name="FleetBlinkAtCompletion" xml:space="preserve">
+	<data name="FleetBlinkAtCompletion" xml:space="preserve">
     <value>计时结束后闪烁</value>
   </data>
-  <data name="Life_CanCloseFloatWindowInLock" xml:space="preserve">
+	<data name="Life_CanCloseFloatWindowInLock" xml:space="preserve">
     <value>锁定布局时可以关闭标签页</value>
   </data>
-  <data name="Scene" xml:space="preserve">
+	<data name="Scene" xml:space="preserve">
     <value>场景</value>
   </data>
-  <data name="UseSystemProxy" xml:space="preserve">
+	<data name="UseSystemProxy" xml:space="preserve">
     <value>使用系统代理</value>
   </data>
-  <data name="UseSystemProxyTooltip" xml:space="preserve">
+	<data name="UseSystemProxyTooltip" xml:space="preserve">
     <value>使用系统代理</value>
   </data>
-  <data name="BGMPlayer_Enabled" xml:space="preserve">
+	<data name="BGMPlayer_Enabled" xml:space="preserve">
     <value>启用BGM播放器</value>
   </data>
-  <data name="BGMPlayer_Enabled_Tooltip" xml:space="preserve">
+	<data name="BGMPlayer_Enabled_Tooltip" xml:space="preserve">
     <value>可自定义当前场景播放的BGM</value>
   </data>
-  <data name="BGMPlayer_OpenMusicFile" xml:space="preserve">
+	<data name="BGMPlayer_OpenMusicFile" xml:space="preserve">
     <value>选择音乐文件</value>
   </data>
-  <data name="BGMPlayer_Settings" xml:space="preserve">
+	<data name="BGMPlayer_Settings" xml:space="preserve">
     <value>BGM设置</value>
   </data>
-  <data name="BGMPlayer_SetVolumeAll" xml:space="preserve">
+	<data name="BGMPlayer_SetVolumeAll" xml:space="preserve">
     <value>统一应用音量</value>
   </data>
-  <data name="BGMPlayer_SyncBrowserMute" xml:space="preserve">
+	<data name="BGMPlayer_SyncBrowserMute" xml:space="preserve">
     <value>同步静音</value>
   </data>
-  <data name="BGMPlayer_SyncBrowserMute_Tooltip" xml:space="preserve">
+	<data name="BGMPlayer_SyncBrowserMute_Tooltip" xml:space="preserve">
     <value>与浏览器的静音设置同步</value>
   </data>
-  <data name="Lead" xml:space="preserve">
+	<data name="Lead" xml:space="preserve">
     <value>引导：</value>
   </data>
-  <data name="Loop" xml:space="preserve">
+	<data name="Loop" xml:space="preserve">
     <value>循环</value>
   </data>
-  <data name="Path" xml:space="preserve">
+	<data name="Path" xml:space="preserve">
     <value>路径：</value>
   </data>
-  <data name="Second" xml:space="preserve">
+	<data name="Second" xml:space="preserve">
     <value>秒</value>
   </data>
-  <data name="Volume" xml:space="preserve">
+	<data name="Volume" xml:space="preserve">
     <value>音量：</value>
   </data>
-  <data name="Others" xml:space="preserve">
+	<data name="Others" xml:space="preserve">
     <value>其他</value>
   </data>
-  <data name="FailWriteRegistry" xml:space="preserve">
+	<data name="FailWriteRegistry" xml:space="preserve">
     <value>写入浏览器版本到注册表失败。</value>
   </data>
-  <data name="WriteRegistry" xml:space="preserve">
+	<data name="WriteRegistry" xml:space="preserve">
     <value>写入浏览器版本到注册表。
 如果你想删除该项，前往设置-窗口-IE(2)-删除</value>
   </data>
-  <data name="AnchorageRepairFinish" xml:space="preserve">
+	<data name="AnchorageRepairFinish" xml:space="preserve">
     <value>泊地修理</value>
   </data>
-  <data name="AlertOnError" xml:space="preserve">
+	<data name="AlertOnError" xml:space="preserve">
     <value>错误警告音</value>
   </data>
-  <data name="AllowUserToSortRows" xml:space="preserve">
+	<data name="AllowUserToSortRows" xml:space="preserve">
     <value>允许变更顺序</value>
   </data>
-  <data name="ApplyRegistry" xml:space="preserve">
+	<data name="ApplyRegistry" xml:space="preserve">
     <value>应用</value>
   </data>
-  <data name="CandidateDisplayCount" xml:space="preserve">
+	<data name="CandidateDisplayCount" xml:space="preserve">
     <value>一次显示的数量：</value>
   </data>
-  <data name="DeleteRegistry" xml:space="preserve">
+	<data name="DeleteRegistry" xml:space="preserve">
     <value>删除</value>
   </data>
-  <data name="Dock" xml:space="preserve">
+	<data name="Dock" xml:space="preserve">
     <value>入渠</value>
   </data>
-  <data name="EquipmentLevelVisibility_Both" xml:space="preserve">
+	<data name="EquipmentLevelVisibility_Both" xml:space="preserve">
     <value>两方都显示</value>
   </data>
-  <data name="EquipmentLevelVisibility_Hidden" xml:space="preserve">
+	<data name="EquipmentLevelVisibility_Hidden" xml:space="preserve">
     <value>不显示</value>
   </data>
-  <data name="EquipmentLevelVisibility_ImprovOnly" xml:space="preserve">
+	<data name="EquipmentLevelVisibility_ImprovOnly" xml:space="preserve">
     <value>仅改修等级</value>
   </data>
-  <data name="EquipmentLevelVisibility_ImprovPrio" xml:space="preserve">
+	<data name="EquipmentLevelVisibility_ImprovPrio" xml:space="preserve">
     <value>改修等级优先</value>
   </data>
-  <data name="EquipmentLevelVisibility_ProfOnly" xml:space="preserve">
+	<data name="EquipmentLevelVisibility_ProfOnly" xml:space="preserve">
     <value>仅舰载机熟练度</value>
   </data>
-  <data name="EquipmentLevelVisibility_ProfPrio" xml:space="preserve">
+	<data name="EquipmentLevelVisibility_ProfPrio" xml:space="preserve">
     <value>舰载机熟练度优先</value>
   </data>
-  <data name="HiddenJSON" xml:space="preserve">
+	<data name="HiddenJSON" xml:space="preserve">
     <value>（当前不显示。请先设置启用Debug菜单）</value>
   </data>
-  <data name="ProgressAutoSaving" xml:space="preserve">
+	<data name="ProgressAutoSaving" xml:space="preserve">
     <value>任务进度自动保存：</value>
   </data>
-  <data name="ProgressAutoSaving_Daily" xml:space="preserve">
+	<data name="ProgressAutoSaving_Daily" xml:space="preserve">
     <value>每天</value>
   </data>
-  <data name="ProgressAutoSaving_Disable" xml:space="preserve">
+	<data name="ProgressAutoSaving_Disable" xml:space="preserve">
     <value>从不</value>
   </data>
-  <data name="ProgressAutoSaving_Hourly" xml:space="preserve">
+	<data name="ProgressAutoSaving_Hourly" xml:space="preserve">
     <value>每小时</value>
   </data>
-  <data name="RecordAutoSaving" xml:space="preserve">
+	<data name="RecordAutoSaving" xml:space="preserve">
     <value>记录自动保存：</value>
   </data>
-  <data name="ShipNameSortMethod" xml:space="preserve">
+	<data name="ShipNameSortMethod" xml:space="preserve">
     <value>舰名排序</value>
   </data>
-  <data name="ShipNameSortMethod_Alphabet" xml:space="preserve">
+	<data name="ShipNameSortMethod_Alphabet" xml:space="preserve">
     <value>按假名排序</value>
   </data>
-  <data name="ShipNameSortMethod_Number" xml:space="preserve">
+	<data name="ShipNameSortMethod_Number" xml:space="preserve">
     <value>按图鉴编号排序</value>
   </data>
-  <data name="ToolMenuAlignment_Bottom" xml:space="preserve">
+	<data name="ToolMenuAlignment_Bottom" xml:space="preserve">
     <value>下</value>
   </data>
-  <data name="ToolMenuAlignment_Invisible" xml:space="preserve">
+	<data name="ToolMenuAlignment_Invisible" xml:space="preserve">
     <value>隐藏</value>
   </data>
-  <data name="ToolMenuAlignment_Left" xml:space="preserve">
+	<data name="ToolMenuAlignment_Left" xml:space="preserve">
     <value>左</value>
   </data>
-  <data name="ToolMenuAlignment_Right" xml:space="preserve">
+	<data name="ToolMenuAlignment_Right" xml:space="preserve">
     <value>右</value>
   </data>
-  <data name="ToolMenuAlignment_Top" xml:space="preserve">
+	<data name="ToolMenuAlignment_Top" xml:space="preserve">
     <value>上</value>
   </data>
-  <data name="ToolMenuDockStyle" xml:space="preserve">
+	<data name="ToolMenuDockStyle" xml:space="preserve">
     <value>工具菜单对齐：</value>
   </data>
-  <data name="UI_BarColorMorphing" xml:space="preserve">
+	<data name="UI_BarColorMorphing" xml:space="preserve">
     <value>进度条平滑显示</value>
   </data>
-  <data name="PowerEngagementForm" xml:space="preserve">
+	<data name="PowerEngagementForm" xml:space="preserve">
     <value>威力表示交战形态：</value>
   </data>
-  <data name="NewFormula33" xml:space="preserve">
+	<data name="NewFormula33" xml:space="preserve">
     <value>新判定式(33)</value>
   </data>
-  <data name="TextSearch" xml:space="preserve">
+	<data name="TextSearch" xml:space="preserve">
     <value>文本查找</value>
   </data>
-  <data name="TextSearchToolTip" xml:space="preserve">
+	<data name="TextSearchToolTip" xml:space="preserve">
     <value>可以使用名称来查找。
 启用此项可能导致本地化功能失效。</value>
   </data>
-  <data name="ShipTraining" xml:space="preserve">
+	<data name="ShipTraining" xml:space="preserve">
     <value>舰娘训练</value>
   </data>
-  <data name="EnableLocalCache" xml:space="preserve">
+	<data name="EnableLocalCache" xml:space="preserve">
     <value>启用本地缓存</value>
   </data>
-  <data name="UseGithubProxy" xml:space="preserve">
+	<data name="UseGithubProxy" xml:space="preserve">
     <value>通过代理服务器更新</value>
   </data>
+	<data name="BrowserFont" xml:space="preserve">
+		<value>浏览器字体</value>
+	</data>
 </root>

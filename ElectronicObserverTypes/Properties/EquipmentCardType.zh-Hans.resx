@@ -117,52 +117,136 @@
 	<resheader name="writer">
 		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
 	</resheader>
-	<data name="Title" xml:space="preserve">
-    <value>Kancolle Progress</value>
+	<data name="AaDirector" xml:space="preserve">
+    <value>高射装置</value>
   </data>
-	<data name="ExportAsCsv" xml:space="preserve">
-    <value>Export as CSV</value>
+	<data name="AaGun" xml:space="preserve">
+    <value>对空机枪</value>
   </data>
-	<data name="Ships" xml:space="preserve">
-    <value>Ships</value>
+	<data name="AaRocket" xml:space="preserve">
+    <value>对空火箭弹</value>
   </data>
-	<data name="Event" xml:space="preserve">
-    <value>Event</value>
+	<data name="AaShell" xml:space="preserve">
+    <value>对空强化弹</value>
   </data>
-	<data name="ColorFilters" xml:space="preserve">
-    <value>Color Filters</value>
+	<data name="AmphibiousVehicle" xml:space="preserve">
+    <value>特型内火艇</value>
   </data>
-	<data name="File" xml:space="preserve">
-    <value>_File</value>
+	<data name="AntiSubmarinePatrol" xml:space="preserve">
+    <value>对潜哨戒机</value>
   </data>
-	<data name="View" xml:space="preserve">
-    <value>_View</value>
+	<data name="ApShell" xml:space="preserve">
+    <value>对舰强化弹</value>
   </data>
-	<data name="Fcf" xml:space="preserve">
-    <value>FCF</value>
+	<data name="Autogyro" xml:space="preserve">
+    <value>旋翼机</value>
+  </data>
+	<data name="CarrierBasedAircraft" xml:space="preserve">
+    <value>舰载机</value>
   </data>
 	<data name="Daihatsu" xml:space="preserve">
-    <value>Daihatsu</value>
+    <value>上陆用舟艇</value>
   </data>
-	<data name="Tank" xml:space="preserve">
-    <value>Tank</value>
+	<data name="DamageControl" xml:space="preserve">
+    <value>应急修理要员</value>
   </data>
-	<data name="DaihatsuAndTank" xml:space="preserve">
-    <value>Daihatsu &amp; Tank</value>
+	<data name="DdTank" xml:space="preserve">
+    <value>DD战车</value>
   </data>
-	<data name="NoSonarOpeningAsw" xml:space="preserve">
-    <value>Opening ASW</value>
+	<data name="DepthCharge" xml:space="preserve">
+    <value>爆雷</value>
   </data>
-	<data name="SingleSonarOpeningAsw" xml:space="preserve">
-    <value>1 slot opening ASW</value>
+	<data name="EngineUpgrades" xml:space="preserve">
+    <value>机关部强化</value>
   </data>
-	<data name="Max" xml:space="preserve">
-    <value>Max</value>
+	<data name="ExtensionArmor" xml:space="preserve">
+    <value>追加装甲</value>
   </data>
-	<data name="Collection" xml:space="preserve">
-    <value>Collection</value>
+	<data name="Flare" xml:space="preserve">
+    <value>照明弹</value>
   </data>
-	<data name="Missing" xml:space="preserve">
-    <value>Missing</value>
+	<data name="FleetCommand" xml:space="preserve">
+    <value>司令部设施</value>
+  </data>
+	<data name="FlyingBoat" xml:space="preserve">
+    <value>大型飞行艇</value>
+  </data>
+	<data name="HeavyBomber" xml:space="preserve">
+    <value>大型陆上机</value>
+  </data>
+	<data name="Helicopter" xml:space="preserve">
+    <value>直升机</value>
+  </data>
+	<data name="Interceptor" xml:space="preserve">
+    <value>局地战斗机</value>
+  </data>
+	<data name="JetFightingBomber" xml:space="preserve">
+    <value>喷气式战斗爆击机</value>
+  </data>
+	<data name="LandAttacker" xml:space="preserve">
+    <value>陆上攻击机</value>
+  </data>
+	<data name="MachineTools" xml:space="preserve">
+    <value>舰艇修理设施</value>
+  </data>
+	<data name="MaintenanceTeam" xml:space="preserve">
+    <value>航空要员</value>
+  </data>
+	<data name="MidgetSubmarine" xml:space="preserve">
+    <value>特殊潜航艇</value>
+  </data>
+	<data name="MultiPurposeSeaplane" xml:space="preserve">
+    <value>多用途水上机/水上战斗机</value>
+  </data>
+	<data name="MultiPurposeSeaplane2" xml:space="preserve">
+    <value>多用途水上机/水上爆击机</value>
+  </data>
+	<data name="PicketCrew" xml:space="preserve">
+    <value>水上舰要员</value>
+  </data>
+	<data name="PrimaryArmament" xml:space="preserve">
+    <value>主炮</value>
+  </data>
+	<data name="Radar" xml:space="preserve">
+    <value>电探</value>
+  </data>
+	<data name="Ration" xml:space="preserve">
+    <value>战斗粮食</value>
+  </data>
+	<data name="Reconnaissance" xml:space="preserve">
+    <value>侦察机</value>
+  </data>
+	<data name="RocketArtillery" xml:space="preserve">
+    <value>对地装备</value>
+  </data>
+	<data name="Searchlight" xml:space="preserve">
+    <value>探照灯</value>
+  </data>
+	<data name="SecondaryArmament" xml:space="preserve">
+    <value>副炮</value>
+  </data>
+	<data name="Sonar" xml:space="preserve">
+    <value>声呐</value>
+  </data>
+	<data name="SubmarineEquipment" xml:space="preserve">
+    <value>潜水舰装备</value>
+  </data>
+	<data name="Supply" xml:space="preserve">
+    <value>简易输送部材</value>
+  </data>
+	<data name="Supply2" xml:space="preserve">
+    <value>补给物资</value>
+  </data>
+	<data name="Torpedo" xml:space="preserve">
+    <value>鱼雷</value>
+  </data>
+	<data name="TransportMaterials" xml:space="preserve">
+    <value>输送机材</value>
+  </data>
+	<data name="Unknown" xml:space="preserve">
+    <value>不明</value>
+  </data>
+	<data name="Upgrades" xml:space="preserve">
+    <value>強化</value>
   </data>
 </root>

@@ -444,4 +444,7 @@
 	<data name="Debug_LoadBaseAPI" xml:space="preserve">
     <value>读取保存的API</value>
   </data>
+	<data name="WindowCaptureLoadFailed" xml:space="preserve">
+		<value>读取窗口捕获数据失败</value>
+	</data>
 </root>

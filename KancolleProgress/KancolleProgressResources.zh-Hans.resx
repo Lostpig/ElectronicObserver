@@ -98,51 +98,54 @@
 		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
 	</resheader>
 	<data name="Title" xml:space="preserve">
-    <value>出击记录</value>
+    <value>舰队收集进度</value>
   </data>
-	<data name="FleetImage" xml:space="preserve">
-    <value>舰队画面导出</value>
+	<data name="ExportAsCsv" xml:space="preserve">
+    <value>导出为CSV</value>
   </data>
-	<data name="CopyReplay" xml:space="preserve">
-    <value>复制回放</value>
+	<data name="Ships" xml:space="preserve">
+    <value>舰娘</value>
   </data>
-	<data name="Search" xml:space="preserve">
-    <value>搜索</value>
+	<data name="Event" xml:space="preserve">
+    <value>活动</value>
   </data>
-	<data name="FailedToParseApiData" xml:space="preserve">
-    <value>API数据解析失败。</value>
+	<data name="ColorFilters" xml:space="preserve">
+    <value>颜色过滤器</value>
   </data>
-	<data name="World" xml:space="preserve">
-		<value>海域</value>
-	</data>
-	<data name="Map" xml:space="preserve">
-		<value>地图</value>
-	</data>
-	<data name="SortieDetail" xml:space="preserve">
-		<value>出击详情</value>
-	</data>
-	<data name="SelectedItems" xml:space="preserve">
-		<value>选择项合计: {0} / {1}</value>
-	</data>
-	<data name="CopySortieData" xml:space="preserve">
-		<value>复制出击数据</value>
-	</data>
-	<data name="LoadSortieData" xml:space="preserve">
-		<value>读取出击数据</value>
-	</data>
-	<data name="CopyLink" xml:space="preserve">
-		<value>复制链接</value>
-	</data>
-	<data name="Open" xml:space="preserve">
-		<value>打开</value>
-	</data>
-	<data name="Replay" xml:space="preserve">
-		<value>回放</value>
-	</data>
-	<data name="CopyData" xml:space="preserve">
-		<value>复制数据</value>
-	</data>
-	<data name="DuplicateShipError" xml:space="preserve">
-		<value>重复舰娘错误：无法确定正确的舰娘</value>
-	</data>
+	<data name="File" xml:space="preserve">
+    <value>文件(_F)</value>
+  </data>
+	<data name="View" xml:space="preserve">
+    <value>视图(_V)</value>
+  </data>
+	<data name="Fcf" xml:space="preserve">
+    <value>司令部</value>
+  </data>
+	<data name="Daihatsu" xml:space="preserve">
+    <value>大发</value>
+  </data>
+	<data name="Tank" xml:space="preserve">
+    <value>内火艇</value>
+  </data>
+	<data name="DaihatsuAndTank" xml:space="preserve">
+    <value>大发&amp;内火艇</value>
+  </data>
+	<data name="NoSonarOpeningAsw" xml:space="preserve">
+    <value>先制对潜</value>
+  </data>
+	<data name="SingleSonarOpeningAsw" xml:space="preserve">
+    <value>1孔先制对潜</value>
+  </data>
+	<data name="Max" xml:space="preserve">
+    <value>最大</value>
+  </data>
+	<data name="Collection" xml:space="preserve">
+    <value>收集</value>
+  </data>
+	<data name="Missing" xml:space="preserve">
+    <value>缺少</value>
+  </data>
+	<data name="Test" xml:space="preserve">
+    <value></value>
+  </data>
 </root>
