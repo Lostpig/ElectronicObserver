@@ -120,8 +120,8 @@
 	<data name="Title" xml:space="preserve">
     <value>Electronic Observer</value>
   </data>
-	<data name="File" xml:space="preserve">
-    <value>&amp;File</value>
+  <data name="File" xml:space="preserve">
+    <value>_File</value>
   </data>
 	<data name="ExitConfirmation" xml:space="preserve">
     <value>Are you sure you want to exit?</value>
@@ -284,10 +284,7 @@ Are you sure?</value>
 	<data name="Tool_FleetImageGenerator" xml:space="preserve">
     <value>&amp;Fleet Image Generator</value>
   </data>
-	<data name="Tool_KancolleProgress" xml:space="preserve">
-    <value>Kancolle Progress</value>
-  </data>
-	<data name="Tool_ResourceChart" xml:space="preserve">
+  <data name="Tool_ResourceChart" xml:space="preserve">
     <value>Resource &amp;Chart</value>
   </data>
 	<data name="View" xml:space="preserve">
@@ -443,5 +440,8 @@ Do you want to open this github issue?</value>
   </data>
 	<data name="Update_DownloadingUpdater" xml:space="preserve">
     <value>Downloading updater... ({0:##0.00}%)</value>
+  </data>
+  <data name="WindowCaptureLoadFailed" xml:space="preserve">
+    <value>Failed to load window capture data</value>
   </data>
 </root>

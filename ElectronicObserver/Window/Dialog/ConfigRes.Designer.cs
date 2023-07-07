@@ -316,7 +316,16 @@ namespace ElectronicObserver.Window.Dialog {
         }
         
         /// <summary>
-        ///   查找类似 ブラウザバージョン： 的本地化字符串。
+        ///   Looks up a localized string similar to ブラウザフォント.
+        /// </summary>
+        public static string BrowserFont {
+            get {
+                return ResourceManager.GetString("BrowserFont", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to ブラウザバージョン：.
         /// </summary>
         public static string BrowserVersion {
             get {
@@ -894,7 +903,16 @@ namespace ElectronicObserver.Window.Dialog {
         }
         
         /// <summary>
-        ///   查找类似 ＊膨大なサイズになる可能性があります。 的本地化字符串。
+        ///   Looks up a localized string similar to メインフォントに合わせる.
+        /// </summary>
+        public static string MatchMainFont {
+            get {
+                return ResourceManager.GetString("MatchMainFont", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to ＊膨大なサイズになる可能性があります。.
         /// </summary>
         public static string MayIncreaseSize {
             get {

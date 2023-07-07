@@ -255,6 +255,7 @@ public class ApiFileService : ObservableObject
 						Squadrons = a.Squadrons.Values
 							.Select(s => new SortieAirBaseSquadron
 							{
+								AircraftCurrent = s.AircraftCurrent,
 								State = s.State,
 								Condition = s.Condition,
 								EquipmentSlot = new()
@@ -347,6 +348,7 @@ public class ApiFileService : ObservableObject
 	private static SortieShip MakeSortieShip(IShipData s) => new()
 	{
 		Id = s.MasterShip.ShipId,
+		DropId = s.MasterID,
 		Level = s.Level,
 		Condition = s.Condition,
 		Kyouka = s.Kyouka.ToList(),

@@ -23,7 +23,7 @@ namespace ElectronicObserver.Observer;
 
 public sealed class APIObserver
 {
-
+	private object LockObject { get; } = new();
 
 	#region Singleton
 
@@ -739,13 +739,13 @@ public sealed class APIObserver
 		Task.Run(ProcessApiDataAsync);
 	}
 
-	private async void ProcessApiDataAsync()
+	private async Task ProcessApiDataAsync()
 	{
 		// basically while (true)
 		while (await ApiProcessingChannel.Reader.WaitToReadAsync())
 		{
 			Action apiAction = await ApiProcessingChannel.Reader.ReadAsync();
-			UIControl.Dispatcher.Invoke(apiAction);
+			await UIControl.Dispatcher.BeginInvoke(apiAction);
 		}
 	}
 
@@ -920,11 +920,11 @@ public sealed class APIObserver
 					byte[] responseCopy = new byte[(await e.GetResponseBody()).Length];
 					Array.Copy(await e.GetResponseBody(), responseCopy, (await e.GetResponseBody()).Length);
 
-					Task.Run((Action)(() =>
+					Task.Run((() =>
 					{
 						try
 						{
-							lock (this)
+							lock (LockObject)
 							{
 								// 同時に書き込みが走るとアレなのでロックしておく
 

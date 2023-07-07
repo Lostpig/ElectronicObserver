@@ -2,8 +2,10 @@
 using ElectronicObserver.Window.Tools.AutoRefresh;
 using ElectronicObserver.Window.Tools.EquipmentUpgradePlanner;
 using ElectronicObserver.Window.Tools.EventLockPlanner;
+using ElectronicObserver.Window.Tools.Telegram;
 using ElectronicObserver.Window.Wpf.EquipmentUpgradePlanViewer;
 using ElectronicObserver.Window.Wpf.ShipTrainingPlanner;
+using KancolleProgress;
 
 namespace ElectronicObserver.ViewModels.Translations;
 
@@ -13,7 +15,7 @@ public class FormMainTranslationViewModel : TranslationBaseViewModel
 	// if you want to use _ in wpf you need to write it as __
 	public string Title => Properties.Window.FormMain.Title.Replace("_", "__").Replace("&", "_");
 
-	public string StripMenu_File => Properties.Window.FormMain.File.Replace("_", "__").Replace("&", "_");
+	public string StripMenu_File => Properties.Window.FormMain.File;
 
 	public string StripMenu_File_Record => Properties.Window.FormMain.File_Record.Replace("_", "__").Replace("&", "_");
 	public string StripMenu_File_Record_Save => Properties.Window.FormMain.File_Record_Save.Replace("_", "__").Replace("&", "_");
@@ -30,6 +32,7 @@ public class FormMainTranslationViewModel : TranslationBaseViewModel
 	public string StripMenu_File_Layout_TopMost => Properties.Window.FormMain.File_Layout_TopMost.Replace("_", "__").Replace("&", "_");
 	public string LayoutLoadFailed => Properties.Window.FormMain.LayoutLoadFailed.Replace("_", "__").Replace("&", "_");
 	public string LayoutLoadFailedTitle => Properties.Window.FormMain.LayoutLoadFailedTitle.Replace("_", "__").Replace("&", "_");
+	public string WindowCaptureLoadFailed => Properties.Window.FormMain.WindowCaptureLoadFailed;
 
 	public string StripMenu_File_Notification => Properties.Window.FormMain.File_Notification.Replace("_", "__").Replace("&", "_");
 	public string StripMenu_File_Notification_MuteAll => Properties.Window.FormMain.File_Notification_MuteAll.Replace("_", "__").Replace("&", "_");
@@ -80,12 +83,13 @@ public class FormMainTranslationViewModel : TranslationBaseViewModel
 	public string StripMenu_Tool_BaseAirCorpsSimulation => Properties.Window.FormMain.Tool_BaseAirCorpsSimulation.Replace("_", "__").Replace("&", "_");
 	public string StripMenu_Tool_ExpChecker => Properties.Window.FormMain.Tool_ExpChecker.Replace("_", "__").Replace("&", "_");
 	public string StripMenu_Tool_ExpeditionCheck => Properties.Window.FormMain.Tool_ExpeditionCheck.Replace("_", "__").Replace("&", "_");
-	public string StripMenu_Tool_KancolleProgress => Properties.Window.FormMain.Tool_KancolleProgress.Replace("_", "__").Replace("&", "_");
+	public string StripMenu_Tool_KancolleProgress => KancolleProgressResources.Title;
 	public string StripMenu_Tool_ExtraBrowser => Properties.Window.FormMain.Tool_ExtraBrowser.Replace("_", "__").Replace("&", "_");
 	public string StripMenu_Tool_QuestTrackerManager => QuestTrackerManager.Title;
 	public string EventLockPlannerTitle => EventLockPlanner.Title;
 	public string EquipmentUpgradePlannerTitle => EquipmentUpgradePlanner.Title; 
 	public string AutoRefreshTitle => AutoRefresh.Title;
+	public string Telegram => TelegramResources.Title;
 
 	public string StripMenu_Debug => Properties.Window.FormMain.Debug.Replace("_", "__").Replace("&", "_");
 	public string StripMenu_Debug_LoadAPIFromFile => Properties.Window.FormMain.Debug_LoadAPIFromFile.Replace("_", "__").Replace("&", "_");

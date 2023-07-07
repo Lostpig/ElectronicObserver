@@ -5,13 +5,14 @@ using CommunityToolkit.Mvvm.ComponentModel;
 using ElectronicObserver.Data;
 using ElectronicObserver.Resource;
 using ElectronicObserver.Window.Dialog;
+using ElectronicObserver.Window.Tools.DialogAlbumMasterEquipment.EquipmentUpgrade;
 using ElectronicObserverTypes;
 
 namespace ElectronicObserver.Window.Tools.DialogAlbumMasterEquipment;
 
 public class EquipmentDataViewModel : ObservableObject
 {
-	public IEquipmentDataMaster Equipment { get; }
+	public IEquipmentDataMaster Equipment { get; private set; }
 
 	public string EquipmentIdToolTip => string.Format("Type: [ {0} ]", string.Join(", ", Equipment.EquipmentType));
 
@@ -53,9 +54,21 @@ public class EquipmentDataViewModel : ObservableObject
 		_ => 4
 	};
 
+	public AlbumMasterEquipmentUpgradeViewModel UpgradeViewModel { get; private set; }
+
 	public EquipmentDataViewModel(IEquipmentDataMaster equipment)
 	{
 		Equipment = equipment;
+
+		UpgradeViewModel = new(equipment);
+	}
+
+	public void ChangeEquipment(IEquipmentDataMaster equipment)
+	{
+		Equipment = equipment;
+
+		UpgradeViewModel.UnsubscribeFromApis();
+		UpgradeViewModel = new(equipment);
 	}
 
 	private string GetEquippableShips(IEquipmentDataMaster eq)

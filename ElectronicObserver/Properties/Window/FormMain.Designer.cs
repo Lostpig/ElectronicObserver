@@ -241,7 +241,7 @@ namespace ElectronicObserver.Properties.Window {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to ファイル(&amp;F).
+        ///   Looks up a localized string similar to ファイル(_F).
         /// </summary>
         public static string File {
             get {
@@ -751,15 +751,6 @@ namespace ElectronicObserver.Properties.Window {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 艦これ進捗.
-        /// </summary>
-        public static string Tool_KancolleProgress {
-            get {
-                return ResourceManager.GetString("Tool_KancolleProgress", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to 資源チャート(&amp;C).
         /// </summary>
         public static string Tool_ResourceChart {
@@ -1026,6 +1017,15 @@ namespace ElectronicObserver.Properties.Window {
         public static string WindowCapture_SubWindow {
             get {
                 return ResourceManager.GetString("WindowCapture_SubWindow", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to ウィンドウキャプチャデータの読み込みに失敗しました.
+        /// </summary>
+        public static string WindowCaptureLoadFailed {
+            get {
+                return ResourceManager.GetString("WindowCaptureLoadFailed", resourceCulture);
             }
         }
     }
